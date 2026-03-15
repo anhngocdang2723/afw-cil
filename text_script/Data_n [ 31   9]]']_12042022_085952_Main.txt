@@ -1,5 +1,0 @@
-
-C = 100, thamso1 = 1, thamso2 = 1, T = 2, n_neighbors = 5  
-
-
-	USING DATASET : n [ 31   9]]']

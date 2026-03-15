@@ -1,0 +1,475 @@
+KB2 | Dataset: haberman
+Bắt đầu: 2026-03-15 00:16:43.679404
+
+
+--- Rep 01 | Fold 1 ---
+  Train=244 → SMOTE=360
+  W-SVM                          | Gm=0.5387 | AUC=0.5876 | t=0.0155s
+  BL-SMOTE+W-SVM                 | Gm=0.5963 | AUC=0.6131 | t=0.0499s
+  AFW-CIL_default                | Gm=0.5239 | AUC=0.5654 | t=0.0138s
+  PSO-AFW-CIL                    | Gm=0.5411 | AUC=0.5614 | t=0.0273s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5239 | AUC=0.5392 | t=0.024s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5239 | AUC=0.5392 | t=0.0489s
+
+--- Rep 01 | Fold 2 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0272s
+  BL-SMOTE+W-SVM                 | Gm=0.5998 | AUC=0.6299 | t=0.0486s
+  AFW-CIL_default                | Gm=0.5270 | AUC=0.6007 | t=0.0105s
+  PSO-AFW-CIL                    | Gm=0.5270 | AUC=0.6007 | t=0.0112s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6236 | AUC=0.6236 | t=0.025s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6346 | AUC=0.6347 | t=0.0349s
+
+--- Rep 01 | Fold 3 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.4830 | AUC=0.5917 | t=0.0158s
+  BL-SMOTE+W-SVM                 | Gm=0.5477 | AUC=0.5875 | t=0.0239s
+  AFW-CIL_default                | Gm=0.4655 | AUC=0.5583 | t=0.0147s
+  PSO-AFW-CIL                    | Gm=0.5137 | AUC=0.5785 | t=0.0134s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5477 | AUC=0.5875 | t=0.0499s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5477 | AUC=0.5875 | t=0.0242s
+
+--- Rep 01 | Fold 4 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0094s
+  BL-SMOTE+W-SVM                 | Gm=0.7773 | AUC=0.7910 | t=0.0221s
+  AFW-CIL_default                | Gm=0.7719 | AUC=0.7771 | t=0.0128s
+  PSO-AFW-CIL                    | Gm=0.0000 | AUC=0.5000 | t=0.0078s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6540 | AUC=0.6819 | t=0.0322s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8010 | AUC=0.8042 | t=0.019s
+
+--- Rep 01 | Fold 5 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.4714 | AUC=0.5694 | t=0.0156s
+  BL-SMOTE+W-SVM                 | Gm=0.6236 | AUC=0.6389 | t=0.022s
+  AFW-CIL_default                | Gm=0.5336 | AUC=0.6118 | t=0.0123s
+  PSO-AFW-CIL                    | Gm=0.0000 | AUC=0.5000 | t=0.0115s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5477 | AUC=0.5500 | t=0.03s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5578 | AUC=0.5611 | t=0.0215s
+
+[✔] Checkpoint rep 1: ./Experiment/Test_haberman_14032026_231443/Test_haberman_KB2_rep01_checkpoint.csv
+
+--- Rep 02 | Fold 1 ---
+  Train=244 → SMOTE=360
+  W-SVM                          | Gm=0.4457 | AUC=0.5399 | t=0.0127s
+  BL-SMOTE+W-SVM                 | Gm=0.5314 | AUC=0.5765 | t=0.0201s
+  AFW-CIL_default                | Gm=0.4984 | AUC=0.5693 | t=0.0128s
+  PSO-AFW-CIL                    | Gm=0.3911 | AUC=0.5216 | t=0.0115s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5636 | AUC=0.5647 | t=0.0361s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5636 | AUC=0.5647 | t=0.0204s
+
+--- Rep 02 | Fold 2 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0115s
+  BL-SMOTE+W-SVM                 | Gm=0.7638 | AUC=0.7639 | t=0.0211s
+  AFW-CIL_default                | Gm=0.6583 | AUC=0.6833 | t=0.0109s
+  PSO-AFW-CIL                    | Gm=0.6412 | AUC=0.6611 | t=0.0138s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6423 | AUC=0.6438 | t=0.0368s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6346 | AUC=0.6347 | t=0.0212s
+
+--- Rep 02 | Fold 3 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0081s
+  BL-SMOTE+W-SVM                 | Gm=0.6583 | AUC=0.6833 | t=0.0205s
+  AFW-CIL_default                | Gm=0.5774 | AUC=0.6319 | t=0.0105s
+  PSO-AFW-CIL                    | Gm=0.5774 | AUC=0.6319 | t=0.0098s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7528 | AUC=0.7528 | t=0.0417s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7169 | AUC=0.7236 | t=0.0302s
+
+--- Rep 02 | Fold 4 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5137 | AUC=0.5785 | t=0.016s
+  BL-SMOTE+W-SVM                 | Gm=0.5893 | AUC=0.5903 | t=0.0191s
+  AFW-CIL_default                | Gm=0.5069 | AUC=0.5674 | t=0.019s
+  PSO-AFW-CIL                    | Gm=0.5069 | AUC=0.5674 | t=0.0091s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5362 | AUC=0.5368 | t=0.0595s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5244 | AUC=0.5257 | t=0.0257s
+
+--- Rep 02 | Fold 5 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5336 | AUC=0.6118 | t=0.0157s
+  BL-SMOTE+W-SVM                 | Gm=0.6667 | AUC=0.6681 | t=0.0192s
+  AFW-CIL_default                | Gm=0.5270 | AUC=0.6007 | t=0.013s
+  PSO-AFW-CIL                    | Gm=0.5270 | AUC=0.6007 | t=0.0129s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6562 | AUC=0.6569 | t=0.0346s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6667 | AUC=0.6681 | t=0.0282s
+
+[✔] Checkpoint rep 2: ./Experiment/Test_haberman_14032026_231443/Test_haberman_KB2_rep02_checkpoint.csv
+
+--- Rep 03 | Fold 1 ---
+  Train=244 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0171s
+  BL-SMOTE+W-SVM                 | Gm=0.7094 | AUC=0.7124 | t=0.0275s
+  AFW-CIL_default                | Gm=0.5974 | AUC=0.6392 | t=0.0227s
+  PSO-AFW-CIL                    | Gm=0.5974 | AUC=0.6392 | t=0.0173s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7094 | AUC=0.7124 | t=0.028s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6888 | AUC=0.6902 | t=0.0223s
+
+--- Rep 03 | Fold 2 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5069 | AUC=0.5674 | t=0.012s
+  BL-SMOTE+W-SVM                 | Gm=0.6303 | AUC=0.6326 | t=0.0189s
+  AFW-CIL_default                | Gm=0.5000 | AUC=0.5563 | t=0.0287s
+  PSO-AFW-CIL                    | Gm=0.5477 | AUC=0.5875 | t=0.0129s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5401 | AUC=0.5458 | t=0.0211s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.0000 | AUC=0.5000 | t=0.0212s
+
+--- Rep 03 | Fold 3 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0093s
+  BL-SMOTE+W-SVM                 | Gm=0.7071 | AUC=0.7257 | t=0.0265s
+  AFW-CIL_default                | Gm=0.6749 | AUC=0.7056 | t=0.0124s
+  PSO-AFW-CIL                    | Gm=0.6982 | AUC=0.7146 | t=0.0131s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7416 | AUC=0.7438 | t=0.0766s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.0000 | AUC=0.5000 | t=0.0214s
+
+--- Rep 03 | Fold 4 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.4773 | AUC=0.5806 | t=0.014s
+  BL-SMOTE+W-SVM                 | Gm=0.6158 | AUC=0.6521 | t=0.0206s
+  AFW-CIL_default                | Gm=0.4773 | AUC=0.5806 | t=0.028s
+  PSO-AFW-CIL                    | Gm=0.5774 | AUC=0.6319 | t=0.0104s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6158 | AUC=0.6521 | t=0.0634s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6158 | AUC=0.6521 | t=0.0991s
+
+--- Rep 03 | Fold 5 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5270 | AUC=0.6007 | t=0.133s
+  BL-SMOTE+W-SVM                 | Gm=0.5477 | AUC=0.5875 | t=0.1135s
+  AFW-CIL_default                | Gm=0.5137 | AUC=0.5785 | t=0.0293s
+  PSO-AFW-CIL                    | Gm=0.0000 | AUC=0.5000 | t=0.0071s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5477 | AUC=0.5875 | t=0.0207s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5477 | AUC=0.5875 | t=0.0237s
+
+[✔] Checkpoint rep 3: ./Experiment/Test_haberman_14032026_231443/Test_haberman_KB2_rep03_checkpoint.csv
+
+--- Rep 04 | Fold 1 ---
+  Train=244 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0101s
+  BL-SMOTE+W-SVM                 | Gm=0.5659 | AUC=0.5948 | t=0.0189s
+  AFW-CIL_default                | Gm=0.4742 | AUC=0.5954 | t=0.0171s
+  PSO-AFW-CIL                    | Gm=0.0000 | AUC=0.5000 | t=0.025s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5411 | AUC=0.5614 | t=0.1302s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5326 | AUC=0.5503 | t=0.0244s
+
+--- Rep 04 | Fold 2 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5998 | AUC=0.6299 | t=0.0388s
+  BL-SMOTE+W-SVM                 | Gm=0.7100 | AUC=0.7104 | t=0.0275s
+  AFW-CIL_default                | Gm=0.6412 | AUC=0.6611 | t=0.0117s
+  PSO-AFW-CIL                    | Gm=0.6412 | AUC=0.6611 | t=0.0214s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6667 | AUC=0.6681 | t=0.0556s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6882 | AUC=0.6882 | t=0.0252s
+
+--- Rep 04 | Fold 3 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0096s
+  BL-SMOTE+W-SVM                 | Gm=0.6614 | AUC=0.6701 | t=0.0315s
+  AFW-CIL_default                | Gm=0.6667 | AUC=0.6944 | t=0.0361s
+  PSO-AFW-CIL                    | Gm=0.0000 | AUC=0.5000 | t=0.0078s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5490 | AUC=0.5632 | t=0.1289s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5578 | AUC=0.5611 | t=0.0222s
+
+--- Rep 04 | Fold 4 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5401 | AUC=0.6229 | t=0.0134s
+  BL-SMOTE+W-SVM                 | Gm=0.5749 | AUC=0.5965 | t=0.0226s
+  AFW-CIL_default                | Gm=0.5270 | AUC=0.6007 | t=0.0098s
+  PSO-AFW-CIL                    | Gm=0.5137 | AUC=0.5785 | t=0.0192s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5749 | AUC=0.5965 | t=0.0526s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5401 | AUC=0.5521 | t=0.0465s
+
+--- Rep 04 | Fold 5 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.4930 | AUC=0.5451 | t=0.0152s
+  BL-SMOTE+W-SVM                 | Gm=0.6562 | AUC=0.6569 | t=0.0192s
+  AFW-CIL_default                | Gm=0.5401 | AUC=0.5764 | t=0.0111s
+  PSO-AFW-CIL                    | Gm=0.0000 | AUC=0.5000 | t=0.0117s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5270 | AUC=0.5278 | t=0.0195s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5270 | AUC=0.5278 | t=0.0191s
+
+[✔] Checkpoint rep 4: ./Experiment/Test_haberman_14032026_231443/Test_haberman_KB2_rep04_checkpoint.csv
+
+--- Rep 05 | Fold 1 ---
+  Train=244 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0101s
+  BL-SMOTE+W-SVM                 | Gm=0.6764 | AUC=0.6830 | t=0.0209s
+  AFW-CIL_default                | Gm=0.6945 | AUC=0.7203 | t=0.0111s
+  PSO-AFW-CIL                    | Gm=0.6548 | AUC=0.6908 | t=0.0111s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6458 | AUC=0.6458 | t=0.0205s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6366 | AUC=0.6386 | t=0.0243s
+
+--- Rep 05 | Fold 2 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.3333 | AUC=0.5069 | t=0.0139s
+  BL-SMOTE+W-SVM                 | Gm=0.2887 | AUC=0.3958 | t=0.0262s
+  AFW-CIL_default                | Gm=0.3206 | AUC=0.4736 | t=0.0161s
+  PSO-AFW-CIL                    | Gm=0.3162 | AUC=0.4625 | t=0.0129s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.2887 | AUC=0.3958 | t=0.0215s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.2934 | AUC=0.4069 | t=0.0251s
+
+--- Rep 05 | Fold 3 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.4888 | AUC=0.6028 | t=0.0134s
+  BL-SMOTE+W-SVM                 | Gm=0.5553 | AUC=0.5986 | t=0.0197s
+  AFW-CIL_default                | Gm=0.4655 | AUC=0.5583 | t=0.0101s
+  PSO-AFW-CIL                    | Gm=0.4031 | AUC=0.5271 | t=0.0107s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5553 | AUC=0.5986 | t=0.0227s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5477 | AUC=0.5875 | t=0.0259s
+
+--- Rep 05 | Fold 4 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5627 | AUC=0.6097 | t=0.0185s
+  BL-SMOTE+W-SVM                 | Gm=0.6519 | AUC=0.6590 | t=0.04s
+  AFW-CIL_default                | Gm=0.5627 | AUC=0.6097 | t=0.0101s
+  PSO-AFW-CIL                    | Gm=0.6078 | AUC=0.6410 | t=0.0094s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6667 | AUC=0.6681 | t=0.0312s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7169 | AUC=0.7236 | t=0.0389s
+
+--- Rep 05 | Fold 5 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0192s
+  BL-SMOTE+W-SVM                 | Gm=0.5774 | AUC=0.5972 | t=0.0392s
+  AFW-CIL_default                | Gm=0.6892 | AUC=0.7035 | t=0.0105s
+  PSO-AFW-CIL                    | Gm=0.6801 | AUC=0.6924 | t=0.0103s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5916 | AUC=0.6375 | t=0.0202s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5749 | AUC=0.6264 | t=0.0217s
+
+[✔] Checkpoint rep 5: ./Experiment/Test_haberman_14032026_231443/Test_haberman_KB2_rep05_checkpoint.csv
+
+--- Rep 06 | Fold 1 ---
+  Train=244 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0086s
+  BL-SMOTE+W-SVM                 | Gm=0.6955 | AUC=0.7052 | t=0.0221s
+  AFW-CIL_default                | Gm=0.6945 | AUC=0.7203 | t=0.0144s
+  PSO-AFW-CIL                    | Gm=0.7321 | AUC=0.7497 | t=0.0135s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6955 | AUC=0.7052 | t=0.0646s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6764 | AUC=0.6830 | t=0.0241s
+
+--- Rep 06 | Fold 2 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.4595 | AUC=0.5472 | t=0.0274s
+  BL-SMOTE+W-SVM                 | Gm=0.5553 | AUC=0.5986 | t=0.0247s
+  AFW-CIL_default                | Gm=0.4595 | AUC=0.5472 | t=0.0106s
+  PSO-AFW-CIL                    | Gm=0.4595 | AUC=0.5472 | t=0.0103s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5553 | AUC=0.5986 | t=0.0195s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5774 | AUC=0.5833 | t=0.0213s
+
+--- Rep 06 | Fold 3 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0094s
+  BL-SMOTE+W-SVM                 | Gm=0.7312 | AUC=0.7326 | t=0.0212s
+  AFW-CIL_default                | Gm=0.6314 | AUC=0.6743 | t=0.0163s
+  PSO-AFW-CIL                    | Gm=0.5845 | AUC=0.6431 | t=0.0155s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7312 | AUC=0.7326 | t=0.0242s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7312 | AUC=0.7326 | t=0.0239s
+
+--- Rep 06 | Fold 4 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.4773 | AUC=0.5806 | t=0.0157s
+  BL-SMOTE+W-SVM                 | Gm=0.5401 | AUC=0.5764 | t=0.0195s
+  AFW-CIL_default                | Gm=0.4655 | AUC=0.5583 | t=0.0227s
+  PSO-AFW-CIL                    | Gm=0.0000 | AUC=0.5000 | t=0.0091s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5401 | AUC=0.5764 | t=0.019s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5401 | AUC=0.5764 | t=0.0233s
+
+--- Rep 06 | Fold 5 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5553 | AUC=0.5986 | t=0.0218s
+  BL-SMOTE+W-SVM                 | Gm=0.6519 | AUC=0.6590 | t=0.0237s
+  AFW-CIL_default                | Gm=0.5553 | AUC=0.5986 | t=0.0323s
+  PSO-AFW-CIL                    | Gm=0.5553 | AUC=0.5986 | t=0.0163s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5652 | AUC=0.5681 | t=0.0296s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5928 | AUC=0.5993 | t=0.0215s
+
+[✔] Checkpoint rep 6: ./Experiment/Test_haberman_14032026_231443/Test_haberman_KB2_rep06_checkpoint.csv
+
+--- Rep 07 | Fold 1 ---
+  Train=244 → SMOTE=360
+  W-SVM                          | Gm=0.5671 | AUC=0.6320 | t=0.0141s
+  BL-SMOTE+W-SVM                 | Gm=0.5694 | AUC=0.5797 | t=0.018s
+  AFW-CIL_default                | Gm=0.5387 | AUC=0.5876 | t=0.0102s
+  PSO-AFW-CIL                    | Gm=0.0000 | AUC=0.5000 | t=0.0115s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5694 | AUC=0.5797 | t=0.0204s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6231 | AUC=0.6314 | t=0.0277s
+
+--- Rep 07 | Fold 2 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5701 | AUC=0.6208 | t=0.0231s
+  BL-SMOTE+W-SVM                 | Gm=0.6225 | AUC=0.6257 | t=0.0242s
+  AFW-CIL_default                | Gm=0.5627 | AUC=0.6097 | t=0.0117s
+  PSO-AFW-CIL                    | Gm=0.5916 | AUC=0.6188 | t=0.0123s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6770 | AUC=0.6771 | t=0.0218s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6770 | AUC=0.6771 | t=0.0203s
+
+--- Rep 07 | Fold 3 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5845 | AUC=0.6431 | t=0.0125s
+  BL-SMOTE+W-SVM                 | Gm=0.6562 | AUC=0.6569 | t=0.0207s
+  AFW-CIL_default                | Gm=0.5845 | AUC=0.6431 | t=0.0108s
+  PSO-AFW-CIL                    | Gm=0.5845 | AUC=0.6431 | t=0.0134s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6124 | AUC=0.6146 | t=0.0702s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6325 | AUC=0.6368 | t=0.0192s
+
+--- Rep 07 | Fold 4 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0108s
+  BL-SMOTE+W-SVM                 | Gm=0.6423 | AUC=0.6479 | t=0.0183s
+  AFW-CIL_default                | Gm=0.5845 | AUC=0.6431 | t=0.0099s
+  PSO-AFW-CIL                    | Gm=0.5774 | AUC=0.6319 | t=0.0111s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5774 | AUC=0.5833 | t=0.022s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5676 | AUC=0.5722 | t=0.0218s
+
+--- Rep 07 | Fold 5 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5701 | AUC=0.6208 | t=0.0176s
+  BL-SMOTE+W-SVM                 | Gm=0.6146 | AUC=0.6278 | t=0.0185s
+  AFW-CIL_default                | Gm=0.6158 | AUC=0.6521 | t=0.0111s
+  PSO-AFW-CIL                    | Gm=0.0000 | AUC=0.5000 | t=0.0073s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5676 | AUC=0.5722 | t=0.0203s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5774 | AUC=0.5833 | t=0.0209s
+
+[✔] Checkpoint rep 7: ./Experiment/Test_haberman_14032026_231443/Test_haberman_KB2_rep07_checkpoint.csv
+
+--- Rep 08 | Fold 1 ---
+  Train=244 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0243s
+  BL-SMOTE+W-SVM                 | Gm=0.6992 | AUC=0.7013 | t=0.023s
+  AFW-CIL_default                | Gm=0.6598 | AUC=0.6758 | t=0.0096s
+  PSO-AFW-CIL                    | Gm=0.6860 | AUC=0.6941 | t=0.0134s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6860 | AUC=0.6941 | t=0.0235s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6860 | AUC=0.6941 | t=0.0203s
+
+--- Rep 08 | Fold 2 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5336 | AUC=0.6118 | t=0.0132s
+  BL-SMOTE+W-SVM                 | Gm=0.6236 | AUC=0.6632 | t=0.018s
+  AFW-CIL_default                | Gm=0.5336 | AUC=0.6118 | t=0.0113s
+  PSO-AFW-CIL                    | Gm=0.5774 | AUC=0.6319 | t=0.0092s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6236 | AUC=0.6632 | t=0.0204s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6872 | AUC=0.6903 | t=0.0219s
+
+--- Rep 08 | Fold 3 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5916 | AUC=0.6542 | t=0.0132s
+  BL-SMOTE+W-SVM                 | Gm=0.7416 | AUC=0.7438 | t=0.0235s
+  AFW-CIL_default                | Gm=0.6667 | AUC=0.6944 | t=0.0093s
+  PSO-AFW-CIL                    | Gm=0.6667 | AUC=0.6944 | t=0.0105s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7071 | AUC=0.7125 | t=0.0357s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6667 | AUC=0.6681 | t=0.023s
+
+--- Rep 08 | Fold 4 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.3873 | AUC=0.4938 | t=0.0126s
+  BL-SMOTE+W-SVM                 | Gm=0.5477 | AUC=0.5500 | t=0.0209s
+  AFW-CIL_default                | Gm=0.3873 | AUC=0.4938 | t=0.0151s
+  PSO-AFW-CIL                    | Gm=0.3873 | AUC=0.4938 | t=0.0103s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.4830 | AUC=0.4854 | t=0.0203s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5164 | AUC=0.5167 | t=0.0217s
+
+--- Rep 08 | Fold 5 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5916 | AUC=0.6542 | t=0.0133s
+  BL-SMOTE+W-SVM                 | Gm=0.5774 | AUC=0.5833 | t=0.0195s
+  AFW-CIL_default                | Gm=0.5845 | AUC=0.6431 | t=0.0104s
+  PSO-AFW-CIL                    | Gm=0.5845 | AUC=0.6431 | t=0.01s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5963 | AUC=0.6056 | t=0.0192s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5774 | AUC=0.5833 | t=0.0252s
+
+[✔] Checkpoint rep 8: ./Experiment/Test_haberman_14032026_231443/Test_haberman_KB2_rep08_checkpoint.csv
+
+--- Rep 09 | Fold 1 ---
+  Train=244 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0105s
+  BL-SMOTE+W-SVM                 | Gm=0.6114 | AUC=0.6124 | t=0.0195s
+  AFW-CIL_default                | Gm=0.6304 | AUC=0.6575 | t=0.0135s
+  PSO-AFW-CIL                    | Gm=0.6304 | AUC=0.6575 | t=0.0114s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5996 | AUC=0.6013 | t=0.0203s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5996 | AUC=0.6013 | t=0.0238s
+
+--- Rep 09 | Fold 2 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.4714 | AUC=0.5694 | t=0.0147s
+  BL-SMOTE+W-SVM                 | Gm=0.5490 | AUC=0.5632 | t=0.022s
+  AFW-CIL_default                | Gm=0.5137 | AUC=0.5785 | t=0.0117s
+  PSO-AFW-CIL                    | Gm=0.5204 | AUC=0.5896 | t=0.0105s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5123 | AUC=0.5187 | t=0.0211s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5123 | AUC=0.5187 | t=0.0203s
+
+--- Rep 09 | Fold 3 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.6412 | AUC=0.6611 | t=0.0268s
+  BL-SMOTE+W-SVM                 | Gm=0.5963 | AUC=0.6056 | t=0.0199s
+  AFW-CIL_default                | Gm=0.6146 | AUC=0.6278 | t=0.0117s
+  PSO-AFW-CIL                    | Gm=0.0000 | AUC=0.5000 | t=0.0072s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5963 | AUC=0.6056 | t=0.0219s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5963 | AUC=0.6056 | t=0.0323s
+
+--- Rep 09 | Fold 4 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0107s
+  BL-SMOTE+W-SVM                 | Gm=0.5963 | AUC=0.6056 | t=0.0205s
+  AFW-CIL_default                | Gm=0.5916 | AUC=0.6542 | t=0.0107s
+  PSO-AFW-CIL                    | Gm=0.5916 | AUC=0.6542 | t=0.0112s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5774 | AUC=0.5833 | t=0.0207s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5676 | AUC=0.5722 | t=0.0217s
+
+--- Rep 09 | Fold 5 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0145s
+  BL-SMOTE+W-SVM                 | Gm=0.6770 | AUC=0.6792 | t=0.017s
+  AFW-CIL_default                | Gm=0.5270 | AUC=0.6007 | t=0.0112s
+  PSO-AFW-CIL                    | Gm=0.0000 | AUC=0.5000 | t=0.0089s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6455 | AUC=0.6458 | t=0.021s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6667 | AUC=0.6681 | t=0.0224s
+
+[✔] Checkpoint rep 9: ./Experiment/Test_haberman_14032026_231443/Test_haberman_KB2_rep09_checkpoint.csv
+
+--- Rep 10 | Fold 1 ---
+  Train=244 → SMOTE=360
+  W-SVM                          | Gm=0.6050 | AUC=0.6503 | t=0.0138s
+  BL-SMOTE+W-SVM                 | Gm=0.6568 | AUC=0.6608 | t=0.0226s
+  AFW-CIL_default                | Gm=0.5974 | AUC=0.6392 | t=0.0139s
+  PSO-AFW-CIL                    | Gm=0.6955 | AUC=0.7052 | t=0.0093s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6568 | AUC=0.6608 | t=0.023s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7771 | AUC=0.7784 | t=0.0241s
+
+--- Rep 10 | Fold 2 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5553 | AUC=0.5986 | t=0.0131s
+  BL-SMOTE+W-SVM                 | Gm=0.5774 | AUC=0.5833 | t=0.0197s
+  AFW-CIL_default                | Gm=0.5627 | AUC=0.6097 | t=0.0105s
+  PSO-AFW-CIL                    | Gm=0.5627 | AUC=0.6097 | t=0.0108s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5375 | AUC=0.5389 | t=0.0214s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.4930 | AUC=0.4965 | t=0.0217s
+
+--- Rep 10 | Fold 3 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0107s
+  BL-SMOTE+W-SVM                 | Gm=0.7207 | AUC=0.7215 | t=0.0194s
+  AFW-CIL_default                | Gm=0.6583 | AUC=0.6833 | t=0.0248s
+  PSO-AFW-CIL                    | Gm=0.6314 | AUC=0.6743 | t=0.0159s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6346 | AUC=0.6347 | t=0.0203s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6346 | AUC=0.6347 | t=0.0179s
+
+--- Rep 10 | Fold 4 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.4830 | AUC=0.5917 | t=0.0133s
+  BL-SMOTE+W-SVM                 | Gm=0.5553 | AUC=0.5986 | t=0.0169s
+  AFW-CIL_default                | Gm=0.4830 | AUC=0.5917 | t=0.0085s
+  PSO-AFW-CIL                    | Gm=0.5270 | AUC=0.6007 | t=0.012s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5553 | AUC=0.5986 | t=0.0184s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5553 | AUC=0.5986 | t=0.0187s
+
+--- Rep 10 | Fold 5 ---
+  Train=245 → SMOTE=360
+  W-SVM                          | Gm=0.5270 | AUC=0.6007 | t=0.0132s
+  BL-SMOTE+W-SVM                 | Gm=0.5401 | AUC=0.5458 | t=0.0205s
+  AFW-CIL_default                | Gm=0.5137 | AUC=0.5785 | t=0.0104s
+  PSO-AFW-CIL                    | Gm=0.5137 | AUC=0.5785 | t=0.0113s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5244 | AUC=0.5257 | t=0.0211s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5401 | AUC=0.5458 | t=0.0205s
+
+[✔] Checkpoint rep 10: ./Experiment/Test_haberman_14032026_231443/Test_haberman_KB2_rep10_checkpoint.csv
+
+Kết thúc: 2026-03-15 00:37:30.348083

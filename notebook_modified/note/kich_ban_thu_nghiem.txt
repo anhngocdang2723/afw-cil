@@ -1,0 +1,44 @@
+KỊCH BẢN THỰC NGHIỆM
+Kịch bản 1: Đánh giá hiệu quả của Tối ưu hóa siêu tham số bằng thuật toán bầy đàn 
+Mục đích: Kịch bản trả lời câu hỏi nghiên cứu: "Thuật toán PSO có thực sự giúp tìm ra bộ tham số tốt hơn cho AFW-CIL so với việc gán cứng hoặc dò tìm truyền thống không?".
+Các mô hình tham gia so sánh (Baselines): Thử nghiệm được thực hiện trên tập dữ liệu gốc (không dùng SMOTE) với 4 mô hình:
+W-SVM (Mô hình gốc không xử lý mờ).
+AFW-CIL (Thuật toán gốc với gán cứng bộ tham số K, sigma).
+GridSearch-AFW-CIL (Dùng thuật toán duyệt cạn truyền thống để tìm tham số).
+PSO-AFW-CIL (Phương pháp đề xuất).
+Độ đo sử dụng và Kết quả kỳ vọng: Đánh giá dựa trên G-mean, SE (Sensitivity) và Thời gian tìm kiếm (Search Time). Kết quả chứng minh PSO-AFW-CIL mang lại điểm G-mean/SE cao hơn hẳn so với việc gán cứng, đồng thời thời gian hội tụ để tìm ra bộ tham số tối ưu ngắn hơn rất nhiều so với phương pháp dò cạn GridSearch.
+Kịch bản 2: Đánh giá toàn diện Quy trình Lai (Hybrid Pipeline Evaluation)
+Mục đích: Thử nghiệm chính nhằm bóc tách và chứng minh sự kết hợp giữa Can thiệp mức dữ liệu (Borderline-SMOTE) và Can thiệp mức thuật toán (PSO-AFW-CIL) là sự kết nối hoàn hảo, không phải do may mắn.
+Các mô hình tham gia so sánh:
+W-SVM (Mô hình cơ sở, không xử lý gì).
+BL-SMOTE + W-SVM (Chỉ can thiệp mức Dữ liệu).
+AFW-CIL (Chỉ can thiệp mức Thuật toán, gán cứng tham số).
+PSO-AFW-CIL (Chỉ can thiệp mức Thuật toán, có tối ưu động).
+BL-SMOTE + AFW-CIL (Mô hình lai nhưng gán cứng tham số).
+BL-SMOTE + PSO-AFW-CIL (Mô hình lai hoàn chỉnh đề xuất).
+Kết quả kỳ vọng: Bảng kết quả sẽ cho thấy (6) là mô hình chiến thắng  với độ đo SP, SE, G-mean, F1-Score, ACC, AUC cao nhất. Qua đó lập luận rằng: Việc sinh thêm mẫu (BL-SMOTE) cung cấp đủ quân số cho lớp hiếm, trong khi lõi (PSO-AFW-CIL) hoạt động như một màng lọc xuất sắc để tiêu diệt các nhiễu do SMOTE vô tình sinh ra tại vùng ranh giới.
+Kịch bản 3: Đánh giá độ bền bỉ trên dữ liệu mất cân bằng khắc nghiệt (Stress Test / Robustness Test)
+Mục đích: Kịch bản này kiểm tra giới hạn chịu đựng (Robustness) của mô hình khi tỷ lệ mẫu dương cạn kiệt đến mức cực đoan.
+Cách thức thực hiện: Sử dụng bộ dữ liệu đồng tác giả và chia thành các phiên bản có tỷ lệ nhãn dương giảm dần: 20%, 15%, 10%, 8%, 6%, 4%, 2%, và 1.61% (tham khảo luận án).
+Tiêu chuẩn thống kê (Yêu cầu bắt buộc): Để loại bỏ yếu tố ngẫu nhiên từ quá trình sinh mẫu của SMOTE và khởi tạo bầy đàn của PSO, thực nghiệm áp dụng chiến lược 5-fold cross-validation chạy lặp lại 10 lần 8. Kết quả báo cáo trên biểu đồ phải ở định dạng chuẩn: Mean±Std (Trung bình ± Độ lệch chuẩn)
+Kết quả kỳ vọng: Vẽ biểu đồ đường (Line chart) với trục X là Tỷ lệ mất cân bằng và trục Y là độ đo G-mean. Khi tỷ lệ tiến về mức cực hiếm (1.61%), đường biểu diễn của các thuật toán cơ sở sẽ cắm đầu đi xuống, trong khi đường của mô hình đề xuất BL-SMOTE + PSO-AFW-CIL vẫn giữ được dạng nằm ngang ổn định với độ lệch chuẩn nhỏ.
+Kịch bản 4: Nghiên cứu cắt bỏ và Đánh giá sự đánh đổi (Ablation Study & Cost Trade-off)
+Mục đích: Chứng minh mọi thành phần (Component) trong mô hình đều có lý do tồn tại, đồng thời đối diện thẳng thắn với nhược điểm về chi phí tính toán của phương pháp lai.
+Cách thức thực hiện: Lập một bảng phân tích chi phí và hiệu năng cho từng cấu hình:
+Cột dữ liệu: Cấu hình | G-mean | SE | Training Time (s) | Memory Usage (MB).
+Các hàng (Rows): So sánh giữa AFW-CIL gốc -> Thêm PSO -> Thêm BL-SMOTE -> Full Proposed Model.
+Cấu hình Vàng (Golden Setup) đề xuất cho Paper:
+Để đảm bảo thời gian chạy hợp lý (khoảng vài tiếng trên dataset lớn) mà vẫn giữ được tính hàn lâm cao nhất, bạn hãy cấu hình như sau:
+Outer CV: 5-Fold (để lấy điểm report lên báo)
+.
+Inner CV: 3-Fold (chỉ dùng bên trong hàm fitness_function của PSO). Khi chấm điểm một hạt, Agent phải gọi StratifiedKFold(n_splits=3), tính G-mean của 3 lần rồi trả về mean(G-mean).
+Tham số PSO: Hạ xuống PARTICLES = 8 và ITERS = 10 (Vì có hạt Seed của tác giả, PSO sẽ hội tụ rất nhanh, không cần 15-20 hạt).
+Tham số SMOTE: Áp dụng SMOTE bên trong từng Inner-Train (Không được bôi SMOTE lên Inner-Val).
+
+Cấu hình Vàng (Golden Setup) đề xuất cho Paper:
+Để đảm bảo thời gian chạy hợp lý (khoảng vài tiếng trên dataset lớn) mà vẫn giữ được tính hàn lâm cao nhất, bạn hãy cấu hình như sau:
+Outer CV: 5-Fold (để lấy điểm report lên báo)
+.
+Inner CV: 3-Fold (chỉ dùng bên trong hàm fitness_function của PSO). Khi chấm điểm một hạt, Agent phải gọi StratifiedKFold(n_splits=3), tính G-mean của 3 lần rồi trả về mean(G-mean).
+Tham số PSO: Hạ xuống PARTICLES = 8 và ITERS = 10 (Vì có hạt Seed của tác giả, PSO sẽ hội tụ rất nhanh, không cần 15-20 hạt).
+Tham số SMOTE: Áp dụng SMOTE bên trong từng Inner-Train (Không được bôi SMOTE lên Inner-Val).

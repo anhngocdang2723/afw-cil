@@ -5,9 +5,10 @@ from sklearn.model_selection import train_test_split as tts
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from Processing_Data.common.change_rate_data import change_rate_data
+import os
 
 def load_data(test_size,new_rate=1/5):
-    data = pd.read_csv('D:/MULTIMEDIA/MACHINE_LEARNING_THAY_QUANG/FUZZY SVM/CODE/07_04_2022/fuzzy_svm/Processing_Data/dataset/CoAuthor_1800.csv')
+    data = pd.read_csv(os.path.join(os.path.dirname(__file__), 'dataset', 'CoAuthor_1800.csv'))
     # diag_map = {-1: -1.0, 1: -1.0}
     # data['Label'] = data['Label'].map(diag_map)
     X = data.values[:, 0:-1]

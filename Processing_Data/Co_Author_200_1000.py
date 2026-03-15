@@ -5,9 +5,10 @@ from sklearn.model_selection import train_test_split as tts
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from Processing_Data.common.change_rate_data import change_rate_data
+import os
 
 # def load_data(new_rate):
-#     dataset = pd.read_csv('D:/MULTIMEDIA/MACHINE_LEARNING_THAY_QUANG/FUZZY SVM/CODE/07_04_2022/fuzzy_svm/Processing_Data/dataset/Co_Author_Static_50_250.csv')
+#     dataset = pd.read_csv(os.path.join(os.path.dirname(__file__), 'dataset', 'Co_Author_Static_50_250.csv'))
 #     dataset_desc = dataset.describe(include = 'all')
 #     # ecoli_map = {' im':1.0, ' cp':-1.0, 'imL':-1.0,'imS':-1.0,'imU':-1.0,' om':-1.0,'omL':-1.0,' pp':-1.0}
 #     # dataset['class'] = dataset['class'].map(ecoli_map)
@@ -20,7 +21,7 @@ from Processing_Data.common.change_rate_data import change_rate_data
 #     return X, y
 
 def load_data():
-    dataset = pd.read_csv('D:/MULTIMEDIA/MACHINE_LEARNING_THAY_QUANG/FUZZY SVM/CODE/07_04_2022/fuzzy_svm/Processing_Data/dataset/Co_Author_200_1000_4.csv')
+    dataset = pd.read_csv(os.path.join(os.path.dirname(__file__), 'dataset', 'Co_Author_200_1000_4.csv'))
     dataset_desc = dataset.describe(include = 'all')
     # ecoli_map = {' im':1.0, ' cp':-1.0, 'imL':-1.0,'imS':-1.0,'imU':-1.0,' om':-1.0,'omL':-1.0,' pp':-1.0}
     # dataset['class'] = dataset['class'].map(ecoli_map)

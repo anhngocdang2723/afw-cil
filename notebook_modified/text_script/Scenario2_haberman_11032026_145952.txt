@@ -1,0 +1,405 @@
+Kịch bản 2 | Dataset: haberman
+Thời gian bắt đầu: 2026-03-11 14:59:52.923903
+
+
+--- Rep 01 | Fold 1 ---
+  W-SVM                          | Gmean=0.5387 | AUC=0.5876 | t=0.0256s
+  SMOTE+W-SVM                    | Gmean=0.5963 | AUC=0.6131 | t=0.0432s
+  AFW-CIL_fixed                  | Gmean=0.5387 | AUC=0.5876 | t=0.0295s
+  PSO-AFW-CIL                    | Gmean=0.6325 | AUC=0.6425 | t=0.0265s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6136 | AUC=0.6203 | t=0.0265s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5963 | AUC=0.6131 | t=0.0688s
+
+--- Rep 01 | Fold 2 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.018s
+  SMOTE+W-SVM                    | Gmean=0.5998 | AUC=0.6299 | t=0.0412s
+  AFW-CIL_fixed                  | Gmean=0.6158 | AUC=0.6521 | t=0.0336s
+  PSO-AFW-CIL                    | Gmean=0.7071 | AUC=0.7083 | t=0.0233s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6455 | AUC=0.6458 | t=0.0268s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.7100 | AUC=0.7104 | t=0.0307s
+
+--- Rep 01 | Fold 3 ---
+  W-SVM                          | Gmean=0.4830 | AUC=0.5917 | t=0.0175s
+  SMOTE+W-SVM                    | Gmean=0.5477 | AUC=0.5875 | t=0.0328s
+  AFW-CIL_fixed                  | Gmean=0.4655 | AUC=0.5583 | t=0.0161s
+  PSO-AFW-CIL                    | Gmean=0.5869 | AUC=0.5944 | t=0.0153s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5477 | AUC=0.5875 | t=0.0303s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6055 | AUC=0.6104 | t=0.0415s
+
+--- Rep 01 | Fold 4 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0131s
+  SMOTE+W-SVM                    | Gmean=0.7773 | AUC=0.7910 | t=0.0267s
+  AFW-CIL_fixed                  | Gmean=0.7619 | AUC=0.7660 | t=0.0149s
+  PSO-AFW-CIL                    | Gmean=0.8165 | AUC=0.8243 | t=0.0157s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6540 | AUC=0.6819 | t=0.0264s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.7746 | AUC=0.8000 | t=0.037s
+
+--- Rep 01 | Fold 5 ---
+  W-SVM                          | Gmean=0.4714 | AUC=0.5694 | t=0.0194s
+  SMOTE+W-SVM                    | Gmean=0.6236 | AUC=0.6389 | t=0.0297s
+  AFW-CIL_fixed                  | Gmean=0.5336 | AUC=0.6118 | t=0.0139s
+  PSO-AFW-CIL                    | Gmean=0.6303 | AUC=0.6326 | t=0.0224s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5774 | AUC=0.5833 | t=0.0276s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6055 | AUC=0.6167 | t=0.0339s
+
+--- Rep 02 | Fold 1 ---
+  W-SVM                          | Gmean=0.4457 | AUC=0.5399 | t=0.0168s
+  SMOTE+W-SVM                    | Gmean=0.5314 | AUC=0.5765 | t=0.0216s
+  AFW-CIL_fixed                  | Gmean=0.5387 | AUC=0.5876 | t=0.0158s
+  PSO-AFW-CIL                    | Gmean=0.0000 | AUC=0.5000 | t=0.0112s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5841 | AUC=0.5869 | t=0.0289s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5659 | AUC=0.5948 | t=0.0308s
+
+--- Rep 02 | Fold 2 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0165s
+  SMOTE+W-SVM                    | Gmean=0.7638 | AUC=0.7639 | t=0.0244s
+  AFW-CIL_fixed                  | Gmean=0.6583 | AUC=0.6833 | t=0.015s
+  PSO-AFW-CIL                    | Gmean=0.7518 | AUC=0.7549 | t=0.0203s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6009 | AUC=0.6014 | t=0.0224s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6009 | AUC=0.6014 | t=0.0231s
+
+--- Rep 02 | Fold 3 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0158s
+  SMOTE+W-SVM                    | Gmean=0.6583 | AUC=0.6833 | t=0.0251s
+  AFW-CIL_fixed                  | Gmean=0.6667 | AUC=0.6944 | t=0.0153s
+  PSO-AFW-CIL                    | Gmean=0.7100 | AUC=0.7104 | t=0.018s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.7100 | AUC=0.7104 | t=0.0261s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.7638 | AUC=0.7639 | t=0.0275s
+
+--- Rep 02 | Fold 4 ---
+  W-SVM                          | Gmean=0.5137 | AUC=0.5785 | t=0.0246s
+  SMOTE+W-SVM                    | Gmean=0.5893 | AUC=0.5903 | t=0.0233s
+  AFW-CIL_fixed                  | Gmean=0.5069 | AUC=0.5674 | t=0.0152s
+  PSO-AFW-CIL                    | Gmean=0.6455 | AUC=0.6528 | t=0.0156s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5164 | AUC=0.5167 | t=0.0258s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6852 | AUC=0.6951 | t=0.0345s
+
+--- Rep 02 | Fold 5 ---
+  W-SVM                          | Gmean=0.5336 | AUC=0.6118 | t=0.0175s
+  SMOTE+W-SVM                    | Gmean=0.6667 | AUC=0.6681 | t=0.0209s
+  AFW-CIL_fixed                  | Gmean=0.5553 | AUC=0.5986 | t=0.0185s
+  PSO-AFW-CIL                    | Gmean=0.6325 | AUC=0.6500 | t=0.0162s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6225 | AUC=0.6257 | t=0.0282s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6667 | AUC=0.6681 | t=0.0332s
+
+--- Rep 03 | Fold 1 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0197s
+  SMOTE+W-SVM                    | Gmean=0.7094 | AUC=0.7124 | t=0.0254s
+  AFW-CIL_fixed                  | Gmean=0.6220 | AUC=0.6464 | t=0.0195s
+  PSO-AFW-CIL                    | Gmean=0.0000 | AUC=0.5000 | t=0.0156s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.7094 | AUC=0.7124 | t=0.0267s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6386 | AUC=0.6490 | t=0.0313s
+
+--- Rep 03 | Fold 2 ---
+  W-SVM                          | Gmean=0.5069 | AUC=0.5674 | t=0.0208s
+  SMOTE+W-SVM                    | Gmean=0.6303 | AUC=0.6326 | t=0.0228s
+  AFW-CIL_fixed                  | Gmean=0.5833 | AUC=0.6076 | t=0.0164s
+  PSO-AFW-CIL                    | Gmean=0.6656 | AUC=0.6660 | t=0.0173s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5401 | AUC=0.5458 | t=0.0294s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6303 | AUC=0.6326 | t=0.028s
+
+--- Rep 03 | Fold 3 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0137s
+  SMOTE+W-SVM                    | Gmean=0.7071 | AUC=0.7257 | t=0.0359s
+  AFW-CIL_fixed                  | Gmean=0.7454 | AUC=0.7569 | t=0.0148s
+  PSO-AFW-CIL                    | Gmean=0.7360 | AUC=0.7458 | t=0.013s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.7638 | AUC=0.7639 | t=0.0294s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.7071 | AUC=0.7257 | t=0.037s
+
+--- Rep 03 | Fold 4 ---
+  W-SVM                          | Gmean=0.4773 | AUC=0.5806 | t=0.0178s
+  SMOTE+W-SVM                    | Gmean=0.6158 | AUC=0.6521 | t=0.026s
+  AFW-CIL_fixed                  | Gmean=0.4773 | AUC=0.5806 | t=0.0135s
+  PSO-AFW-CIL                    | Gmean=0.6180 | AUC=0.6215 | t=0.0134s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6236 | AUC=0.6389 | t=0.0284s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6180 | AUC=0.6215 | t=0.035s
+
+--- Rep 03 | Fold 5 ---
+  W-SVM                          | Gmean=0.5270 | AUC=0.6007 | t=0.0164s
+  SMOTE+W-SVM                    | Gmean=0.5477 | AUC=0.5875 | t=0.0227s
+  AFW-CIL_fixed                  | Gmean=0.5137 | AUC=0.5785 | t=0.0128s
+  PSO-AFW-CIL                    | Gmean=0.6055 | AUC=0.6167 | t=0.0163s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5477 | AUC=0.5875 | t=0.0244s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6852 | AUC=0.6951 | t=0.033s
+
+--- Rep 04 | Fold 1 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0134s
+  SMOTE+W-SVM                    | Gmean=0.5659 | AUC=0.5948 | t=0.0247s
+  AFW-CIL_fixed                  | Gmean=0.4742 | AUC=0.5954 | t=0.0169s
+  PSO-AFW-CIL                    | Gmean=0.6992 | AUC=0.7013 | t=0.0178s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5326 | AUC=0.5503 | t=0.0266s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6860 | AUC=0.7092 | t=0.0338s
+
+--- Rep 04 | Fold 2 ---
+  W-SVM                          | Gmean=0.5998 | AUC=0.6299 | t=0.0327s
+  SMOTE+W-SVM                    | Gmean=0.7100 | AUC=0.7104 | t=0.0227s
+  AFW-CIL_fixed                  | Gmean=0.6412 | AUC=0.6611 | t=0.0161s
+  PSO-AFW-CIL                    | Gmean=0.6614 | AUC=0.6701 | t=0.0148s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6882 | AUC=0.6882 | t=0.0231s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6770 | AUC=0.6792 | t=0.0304s
+
+--- Rep 04 | Fold 3 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0132s
+  SMOTE+W-SVM                    | Gmean=0.6614 | AUC=0.6701 | t=0.0335s
+  AFW-CIL_fixed                  | Gmean=0.6667 | AUC=0.6944 | t=0.0168s
+  PSO-AFW-CIL                    | Gmean=0.6708 | AUC=0.6813 | t=0.0192s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6124 | AUC=0.6146 | t=0.0365s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6614 | AUC=0.6701 | t=0.0339s
+
+--- Rep 04 | Fold 4 ---
+  W-SVM                          | Gmean=0.5401 | AUC=0.6229 | t=0.0168s
+  SMOTE+W-SVM                    | Gmean=0.5749 | AUC=0.5965 | t=0.0231s
+  AFW-CIL_fixed                  | Gmean=0.5270 | AUC=0.6007 | t=0.014s
+  PSO-AFW-CIL                    | Gmean=0.5749 | AUC=0.5965 | t=0.0144s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5749 | AUC=0.5965 | t=0.0253s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6325 | AUC=0.6368 | t=0.0395s
+
+--- Rep 04 | Fold 5 ---
+  W-SVM                          | Gmean=0.4930 | AUC=0.5451 | t=0.0183s
+  SMOTE+W-SVM                    | Gmean=0.6562 | AUC=0.6569 | t=0.0248s
+  AFW-CIL_fixed                  | Gmean=0.6236 | AUC=0.6389 | t=0.0347s
+  PSO-AFW-CIL                    | Gmean=0.0000 | AUC=0.5000 | t=0.0133s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6656 | AUC=0.6660 | t=0.0283s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6770 | AUC=0.6771 | t=0.0334s
+
+--- Rep 05 | Fold 1 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0153s
+  SMOTE+W-SVM                    | Gmean=0.6764 | AUC=0.6830 | t=0.0237s
+  AFW-CIL_fixed                  | Gmean=0.7029 | AUC=0.7314 | t=0.0148s
+  PSO-AFW-CIL                    | Gmean=0.7048 | AUC=0.7163 | t=0.0142s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6458 | AUC=0.6458 | t=0.0243s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.7094 | AUC=0.7124 | t=0.0338s
+
+--- Rep 05 | Fold 2 ---
+  W-SVM                          | Gmean=0.3333 | AUC=0.5069 | t=0.0161s
+  SMOTE+W-SVM                    | Gmean=0.2887 | AUC=0.3958 | t=0.027s
+  AFW-CIL_fixed                  | Gmean=0.3291 | AUC=0.4958 | t=0.0141s
+  PSO-AFW-CIL                    | Gmean=0.5244 | AUC=0.5542 | t=0.0147s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.2934 | AUC=0.4069 | t=0.0259s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5000 | AUC=0.5125 | t=0.0462s
+
+--- Rep 05 | Fold 3 ---
+  W-SVM                          | Gmean=0.4888 | AUC=0.6028 | t=0.0221s
+  SMOTE+W-SVM                    | Gmean=0.5553 | AUC=0.5986 | t=0.0243s
+  AFW-CIL_fixed                  | Gmean=0.4714 | AUC=0.5694 | t=0.0154s
+  PSO-AFW-CIL                    | Gmean=0.6225 | AUC=0.6257 | t=0.0145s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5553 | AUC=0.5986 | t=0.0242s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6708 | AUC=0.6813 | t=0.0344s
+
+--- Rep 05 | Fold 4 ---
+  W-SVM                          | Gmean=0.5627 | AUC=0.6097 | t=0.0167s
+  SMOTE+W-SVM                    | Gmean=0.6519 | AUC=0.6590 | t=0.0244s
+  AFW-CIL_fixed                  | Gmean=0.6078 | AUC=0.6410 | t=0.0112s
+  PSO-AFW-CIL                    | Gmean=0.6519 | AUC=0.6590 | t=0.0961s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6021 | AUC=0.6035 | t=0.0503s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6972 | AUC=0.7014 | t=0.028s
+
+--- Rep 05 | Fold 5 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0146s
+  SMOTE+W-SVM                    | Gmean=0.5774 | AUC=0.5972 | t=0.0227s
+  AFW-CIL_fixed                  | Gmean=0.6801 | AUC=0.6924 | t=0.019s
+  PSO-AFW-CIL                    | Gmean=0.7601 | AUC=0.7618 | t=0.0142s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5701 | AUC=0.6063 | t=0.0236s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5916 | AUC=0.6083 | t=0.0381s
+
+--- Rep 06 | Fold 1 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0115s
+  SMOTE+W-SVM                    | Gmean=0.6955 | AUC=0.7052 | t=0.0261s
+  AFW-CIL_fixed                  | Gmean=0.6945 | AUC=0.7203 | t=0.0141s
+  PSO-AFW-CIL                    | Gmean=0.7140 | AUC=0.7275 | t=0.0148s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.7140 | AUC=0.7275 | t=0.0273s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.7231 | AUC=0.7386 | t=0.0237s
+
+--- Rep 06 | Fold 2 ---
+  W-SVM                          | Gmean=0.4595 | AUC=0.5472 | t=0.021s
+  SMOTE+W-SVM                    | Gmean=0.5553 | AUC=0.5986 | t=0.0247s
+  AFW-CIL_fixed                  | Gmean=0.5627 | AUC=0.6097 | t=0.0143s
+  PSO-AFW-CIL                    | Gmean=0.5998 | AUC=0.6299 | t=0.0175s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5998 | AUC=0.6299 | t=0.0287s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5998 | AUC=0.6299 | t=0.03s
+
+--- Rep 06 | Fold 3 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.011s
+  SMOTE+W-SVM                    | Gmean=0.7312 | AUC=0.7326 | t=0.0222s
+  AFW-CIL_fixed                  | Gmean=0.6236 | AUC=0.6632 | t=0.0136s
+  PSO-AFW-CIL                    | Gmean=0.7110 | AUC=0.7174 | t=0.0166s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.7312 | AUC=0.7326 | t=0.0325s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.7416 | AUC=0.7417 | t=0.0391s
+
+--- Rep 06 | Fold 4 ---
+  W-SVM                          | Gmean=0.4773 | AUC=0.5806 | t=0.0181s
+  SMOTE+W-SVM                    | Gmean=0.5401 | AUC=0.5764 | t=0.0241s
+  AFW-CIL_fixed                  | Gmean=0.5137 | AUC=0.5785 | t=0.0154s
+  PSO-AFW-CIL                    | Gmean=0.6455 | AUC=0.6458 | t=0.0201s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5401 | AUC=0.5764 | t=0.0262s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5774 | AUC=0.5792 | t=0.0343s
+
+--- Rep 06 | Fold 5 ---
+  W-SVM                          | Gmean=0.5553 | AUC=0.5986 | t=0.0166s
+  SMOTE+W-SVM                    | Gmean=0.6519 | AUC=0.6590 | t=0.0288s
+  AFW-CIL_fixed                  | Gmean=0.6236 | AUC=0.6389 | t=0.0141s
+  PSO-AFW-CIL                    | Gmean=0.6719 | AUC=0.6840 | t=0.0124s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5401 | AUC=0.5458 | t=0.0346s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5540 | AUC=0.5951 | t=0.0374s
+
+--- Rep 07 | Fold 1 ---
+  W-SVM                          | Gmean=0.5671 | AUC=0.6320 | t=0.0182s
+  SMOTE+W-SVM                    | Gmean=0.5694 | AUC=0.5797 | t=0.0269s
+  AFW-CIL_fixed                  | Gmean=0.5387 | AUC=0.5876 | t=0.0113s
+  PSO-AFW-CIL                    | Gmean=0.0000 | AUC=0.5000 | t=0.0151s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5694 | AUC=0.5797 | t=0.0247s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6667 | AUC=0.6719 | t=0.0251s
+
+--- Rep 07 | Fold 2 ---
+  W-SVM                          | Gmean=0.5701 | AUC=0.6208 | t=0.0217s
+  SMOTE+W-SVM                    | Gmean=0.6225 | AUC=0.6257 | t=0.03s
+  AFW-CIL_fixed                  | Gmean=0.6236 | AUC=0.6389 | t=0.0119s
+  PSO-AFW-CIL                    | Gmean=0.6801 | AUC=0.6924 | t=0.0376s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5893 | AUC=0.5903 | t=0.0235s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6992 | AUC=0.6993 | t=0.0305s
+
+--- Rep 07 | Fold 3 ---
+  W-SVM                          | Gmean=0.5845 | AUC=0.6431 | t=0.016s
+  SMOTE+W-SVM                    | Gmean=0.6562 | AUC=0.6569 | t=0.0266s
+  AFW-CIL_fixed                  | Gmean=0.6236 | AUC=0.6632 | t=0.0126s
+  PSO-AFW-CIL                    | Gmean=0.6952 | AUC=0.6972 | t=0.0158s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6346 | AUC=0.6347 | t=0.026s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6124 | AUC=0.6146 | t=0.0329s
+
+--- Rep 07 | Fold 4 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0137s
+  SMOTE+W-SVM                    | Gmean=0.6423 | AUC=0.6479 | t=0.0218s
+  AFW-CIL_fixed                  | Gmean=0.5845 | AUC=0.6431 | t=0.0133s
+  PSO-AFW-CIL                    | Gmean=0.5845 | AUC=0.6431 | t=0.0191s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5869 | AUC=0.5944 | t=0.0306s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6124 | AUC=0.6125 | t=0.0324s
+
+--- Rep 07 | Fold 5 ---
+  W-SVM                          | Gmean=0.5701 | AUC=0.6208 | t=0.0206s
+  SMOTE+W-SVM                    | Gmean=0.6146 | AUC=0.6278 | t=0.0222s
+  AFW-CIL_fixed                  | Gmean=0.6158 | AUC=0.6521 | t=0.0141s
+  PSO-AFW-CIL                    | Gmean=0.6992 | AUC=0.6993 | t=0.0168s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5774 | AUC=0.5833 | t=0.0242s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6519 | AUC=0.6590 | t=0.0418s
+
+--- Rep 08 | Fold 1 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0144s
+  SMOTE+W-SVM                    | Gmean=0.6992 | AUC=0.7013 | t=0.0258s
+  AFW-CIL_fixed                  | Gmean=0.6598 | AUC=0.6758 | t=0.0135s
+  PSO-AFW-CIL                    | Gmean=0.7258 | AUC=0.7268 | t=0.0134s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6568 | AUC=0.6569 | t=0.0342s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.7195 | AUC=0.7196 | t=0.0332s
+
+--- Rep 08 | Fold 2 ---
+  W-SVM                          | Gmean=0.5336 | AUC=0.6118 | t=0.0168s
+  SMOTE+W-SVM                    | Gmean=0.6236 | AUC=0.6632 | t=0.0217s
+  AFW-CIL_fixed                  | Gmean=0.5845 | AUC=0.6431 | t=0.0124s
+  PSO-AFW-CIL                    | Gmean=0.6158 | AUC=0.6521 | t=0.0153s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6236 | AUC=0.6632 | t=0.0266s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6236 | AUC=0.6632 | t=0.0262s
+
+--- Rep 08 | Fold 3 ---
+  W-SVM                          | Gmean=0.5916 | AUC=0.6542 | t=0.0205s
+  SMOTE+W-SVM                    | Gmean=0.7416 | AUC=0.7438 | t=0.034s
+  AFW-CIL_fixed                  | Gmean=0.6667 | AUC=0.6944 | t=0.0148s
+  PSO-AFW-CIL                    | Gmean=0.7619 | AUC=0.7660 | t=0.0137s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6225 | AUC=0.6257 | t=0.0331s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6770 | AUC=0.7132 | t=0.0532s
+
+--- Rep 08 | Fold 4 ---
+  W-SVM                          | Gmean=0.3873 | AUC=0.4938 | t=0.0165s
+  SMOTE+W-SVM                    | Gmean=0.5477 | AUC=0.5500 | t=0.0272s
+  AFW-CIL_fixed                  | Gmean=0.4410 | AUC=0.5139 | t=0.0138s
+  PSO-AFW-CIL                    | Gmean=0.5869 | AUC=0.5944 | t=0.0237s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5270 | AUC=0.5278 | t=0.0243s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5893 | AUC=0.5903 | t=0.0315s
+
+--- Rep 08 | Fold 5 ---
+  W-SVM                          | Gmean=0.5916 | AUC=0.6542 | t=0.0177s
+  SMOTE+W-SVM                    | Gmean=0.5774 | AUC=0.5833 | t=0.0296s
+  AFW-CIL_fixed                  | Gmean=0.5270 | AUC=0.6007 | t=0.0145s
+  PSO-AFW-CIL                    | Gmean=0.6992 | AUC=0.6993 | t=0.0143s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5774 | AUC=0.5833 | t=0.023s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5701 | AUC=0.5701 | t=0.0263s
+
+--- Rep 09 | Fold 1 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0152s
+  SMOTE+W-SVM                    | Gmean=0.6114 | AUC=0.6124 | t=0.0303s
+  AFW-CIL_fixed                  | Gmean=0.6386 | AUC=0.6686 | t=0.0155s
+  PSO-AFW-CIL                    | Gmean=0.6598 | AUC=0.6758 | t=0.0135s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5941 | AUC=0.5941 | t=0.0338s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5636 | AUC=0.5647 | t=0.0302s
+
+--- Rep 09 | Fold 2 ---
+  W-SVM                          | Gmean=0.4714 | AUC=0.5694 | t=0.0181s
+  SMOTE+W-SVM                    | Gmean=0.5490 | AUC=0.5632 | t=0.0276s
+  AFW-CIL_fixed                  | Gmean=0.5137 | AUC=0.5785 | t=0.0127s
+  PSO-AFW-CIL                    | Gmean=0.6124 | AUC=0.6146 | t=0.0185s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5664 | AUC=0.5854 | t=0.0334s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5749 | AUC=0.5965 | t=0.0377s
+
+--- Rep 09 | Fold 3 ---
+  W-SVM                          | Gmean=0.6412 | AUC=0.6611 | t=0.0181s
+  SMOTE+W-SVM                    | Gmean=0.5963 | AUC=0.6056 | t=0.023s
+  AFW-CIL_fixed                  | Gmean=0.6236 | AUC=0.6389 | t=0.0148s
+  PSO-AFW-CIL                    | Gmean=0.6055 | AUC=0.6167 | t=0.0156s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5963 | AUC=0.6056 | t=0.0354s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.7638 | AUC=0.7639 | t=0.0355s
+
+--- Rep 09 | Fold 4 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0129s
+  SMOTE+W-SVM                    | Gmean=0.5963 | AUC=0.6056 | t=0.0259s
+  AFW-CIL_fixed                  | Gmean=0.5986 | AUC=0.6653 | t=0.0134s
+  PSO-AFW-CIL                    | Gmean=0.6749 | AUC=0.7056 | t=0.0156s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5963 | AUC=0.6056 | t=0.0329s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6614 | AUC=0.6701 | t=0.0428s
+
+--- Rep 09 | Fold 5 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.018s
+  SMOTE+W-SVM                    | Gmean=0.6770 | AUC=0.6792 | t=0.0212s
+  AFW-CIL_fixed                  | Gmean=0.5774 | AUC=0.6319 | t=0.0151s
+  PSO-AFW-CIL                    | Gmean=0.7416 | AUC=0.7417 | t=0.0235s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6124 | AUC=0.6146 | t=0.0247s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5774 | AUC=0.5792 | t=0.0219s
+
+--- Rep 10 | Fold 1 ---
+  W-SVM                          | Gmean=0.6050 | AUC=0.6503 | t=0.0159s
+  SMOTE+W-SVM                    | Gmean=0.6568 | AUC=0.6608 | t=0.0287s
+  AFW-CIL_fixed                  | Gmean=0.6686 | AUC=0.6869 | t=0.0161s
+  PSO-AFW-CIL                    | Gmean=0.7158 | AUC=0.7229 | t=0.0157s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6231 | AUC=0.6235 | t=0.0266s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.7771 | AUC=0.7784 | t=0.0329s
+
+--- Rep 10 | Fold 2 ---
+  W-SVM                          | Gmean=0.5553 | AUC=0.5986 | t=0.0161s
+  SMOTE+W-SVM                    | Gmean=0.5774 | AUC=0.5833 | t=0.0247s
+  AFW-CIL_fixed                  | Gmean=0.5204 | AUC=0.5896 | t=0.0161s
+  PSO-AFW-CIL                    | Gmean=0.6872 | AUC=0.6903 | t=0.0194s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.4830 | AUC=0.4854 | t=0.031s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5477 | AUC=0.5500 | t=0.0235s
+
+--- Rep 10 | Fold 3 ---
+  W-SVM                          | Gmean=0.0000 | AUC=0.5000 | t=0.0134s
+  SMOTE+W-SVM                    | Gmean=0.7207 | AUC=0.7215 | t=0.0231s
+  AFW-CIL_fixed                  | Gmean=0.6892 | AUC=0.7035 | t=0.0192s
+  PSO-AFW-CIL                    | Gmean=0.7454 | AUC=0.7569 | t=0.0141s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.6656 | AUC=0.6660 | t=0.0252s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.6972 | AUC=0.7014 | t=0.0334s
+
+--- Rep 10 | Fold 4 ---
+  W-SVM                          | Gmean=0.4830 | AUC=0.5917 | t=0.0164s
+  SMOTE+W-SVM                    | Gmean=0.5553 | AUC=0.5986 | t=0.0199s
+  AFW-CIL_fixed                  | Gmean=0.5270 | AUC=0.6007 | t=0.0154s
+  PSO-AFW-CIL                    | Gmean=0.5477 | AUC=0.5500 | t=0.0138s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5553 | AUC=0.5986 | t=0.0218s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5578 | AUC=0.5743 | t=0.0287s
+
+--- Rep 10 | Fold 5 ---
+  W-SVM                          | Gmean=0.5270 | AUC=0.6007 | t=0.0157s
+  SMOTE+W-SVM                    | Gmean=0.5401 | AUC=0.5458 | t=0.0242s
+  AFW-CIL_fixed                  | Gmean=0.5204 | AUC=0.5896 | t=0.0167s
+  PSO-AFW-CIL                    | Gmean=0.7071 | AUC=0.7083 | t=0.0142s
+  SMOTE+AFW-CIL_fixed            | Gmean=0.5652 | AUC=0.5681 | t=0.0249s
+  SMOTE+PSO-AFW-CIL              | Gmean=0.5123 | AUC=0.5146 | t=0.0262s
+
+Thời gian kết thúc: 2026-03-11 15:12:07.195035

@@ -1,0 +1,477 @@
+
+C = 100, thamso1 = 1, thamso2 = 1, T = 1, n_neighbors = 5  
+
+
+	USING DATASET : churn_TestSize
+
+
+	======== TestSize: 0.25 ========
+
+
+
+	====== NOT USING TOMEKLINKS ========== 
+
+
+	SVM LIBRARY starting...
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	W.SVM starting...
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	Fuzzy W.SVM name_method = 'own_class_center',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	Fuzzy W.SVM name_method = 'own_class_center',name_function = 'exp' starting...
+
+	 Beta 'own_class_center' with exp = 0.5
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'estimated_hyper_lin' with exp = 0.8
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.92      0.98      0.95       713
+           1       0.39      0.15      0.22        71
+
+    accuracy                           0.90       784
+   macro avg       0.66      0.57      0.58       784
+weighted avg       0.87      0.90      0.88       784
+
+SP      : 0.9762
+SE      : 0.1549
+Gmean   : 0.3889
+F1 Score: 0.2222
+Accuracy: 0.9018
+AUC     : 0.5655
+
+Ma tran nham lan: 
+[[696  17]
+ [ 60  11]]
+
+	Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'actual_hyper_lin' with exp = 0.2
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	Fuzzy W.SVM name_method = 'distance_center_own_opposite_tam',name_function = 'func_own_opp_new' starting...
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	====== USING TOMEKLINKS ========== 
+
+
+	Fuzzy W.SVM name_method = 'own_class_center',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	Fuzzy W.SVM name_method = 'own_class_center',name_function = 'exp' starting...
+
+	 Beta 'own_class_center' with exp = 0.5
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'estimated_hyper_lin' with exp = 0.8
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.92      0.98      0.95       713
+           1       0.39      0.15      0.22        71
+
+    accuracy                           0.90       784
+   macro avg       0.66      0.57      0.58       784
+weighted avg       0.87      0.90      0.88       784
+
+SP      : 0.9762
+SE      : 0.1549
+Gmean   : 0.3889
+F1 Score: 0.2222
+Accuracy: 0.9018
+AUC     : 0.5655
+
+Ma tran nham lan: 
+[[696  17]
+ [ 60  11]]
+
+	Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'actual_hyper_lin' with exp = 0.2
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+
+	Fuzzy W.SVM name_method = 'distance_center_own_opposite_tam',name_function = 'func_own_opp_new' starting...
+
+
+So luong samples Tong: 3135
+
+So luong samples training: 2351
+So luong samples testing: 784
+
+              precision    recall  f1-score   support
+
+          -1       0.91      1.00      0.95       713
+           1       0.00      0.00      0.00        71
+
+    accuracy                           0.91       784
+   macro avg       0.45      0.50      0.48       784
+weighted avg       0.83      0.91      0.87       784
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9094
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[713   0]
+ [ 71   0]]
+===================================================================================

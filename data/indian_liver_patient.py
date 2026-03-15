@@ -27,10 +27,24 @@ def load_data(test_size, new_rate):
     imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
     X[:,2:10] = imputer.fit_transform(X[ :,2:10])
     # Analysis the data
+    ## [UPDATE - Start]: Fix lỗi bug toarray của OneHotEncoder và logic dán đè X
+    ## Giống như bên file churn, sử dụng ColumnTransformer để giữ lại các cột số 
+    ## Thay vì gọi OneHotEncoder.fit_transform(X).toarray() sai cách 
+    from sklearn.compose import ColumnTransformer
+    
+    # Cột 1 (sau khi slice data.iloc[:, 1:10]) chính là cột Gender cần OneHot Encode
     labelencoder_X = LabelEncoder()
     X[:, 1] = labelencoder_X.fit_transform(X[:, 1])
-    onehotencoder_X = OneHotEncoder(handle_unknown='ignore')
-    onehotencoder_X.fit_transform(X).toarray()
+    
+    ct = ColumnTransformer(
+        transformers=[
+            ('encoder', OneHotEncoder(sparse_output=False, handle_unknown='ignore'), [1])
+        ],
+        remainder='passthrough'
+    )
+    X = ct.fit_transform(X)
+    ## [UPDATE - End] --- IGNORE ---
+
     X, y = change_rate_data(X, y , new_rate = new_rate)
     
     X_train, X_test, y_train, y_test = tts(X, y, test_size=test_size, random_state=42,stratify=y)

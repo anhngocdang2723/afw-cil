@@ -1,0 +1,5 @@
+
+C = 100, thamso1 = 1, thamso2 = 1, T = 1, n_neighbors = 5  
+
+
+	USING DATASET : churn_TestSize

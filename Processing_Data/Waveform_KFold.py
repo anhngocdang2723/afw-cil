@@ -5,11 +5,12 @@ from sklearn.model_selection import train_test_split as tts
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from Processing_Data.common.change_rate_data import change_rate_data
+import os
 
 # from common.change_rate_data import change_rate_data
 
 def load_data(new_rate): #1/5, 1/7, 1/9, 1/11, 1/15
-    dataset = pd.read_csv('D:/MULTIMEDIA/MACHINE_LEARNING_THAY_QUANG/FUZZY SVM/CODE/07_04_2022/fuzzy_svm/Processing_Data/dataset/waveform.csv')
+    dataset = pd.read_csv(os.path.join(os.path.dirname(__file__), 'dataset', 'waveform.csv'))
     dataset_desc = dataset.describe(include='all')
     waveform_map = {0:1, 1:-1, 2:-1}
     dataset['class'] = dataset['class'].map( waveform_map)

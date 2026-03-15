@@ -1,0 +1,1654 @@
+
+C = 100, thamso1 = 1, thamso2 = 1, T = 3, n_neighbors = 5  
+
+
+	USING DATASET : Abalone19
+
+
+	======== TestSize: 0.2 ========
+
+So luong sample nguyen ban ban dau: 4174
+So luong sample sau khi su dung test_size: Train: 3339; Test: 835
+So luong sample sau khi su dung test_size_val: Train_val: 2671; Test_val: 668
+
+	====== NOT USING TOMEKLINKS ========== 
+
+
+	SVM LIBRARY starting...
+
+
+So luong samples Tong: 3506
+
+So luong samples training: 2671
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	SVM starting...
+
+
+So luong samples Tong: 3506
+
+So luong samples training: 2671
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	W.SVM starting...
+
+
+So luong samples Tong: 3506
+
+So luong samples training: 2671
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3506
+
+So luong samples training: 2671
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'exp' starting...
+
+	 Beta 'own_class_center_opposite' with exp = 0.5
+
+
+So luong samples Tong: 3506
+
+So luong samples training: 2671
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	Fuzzy W.SVM name_method = 'own_class_center',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3506
+
+So luong samples training: 2671
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	Fuzzy W.SVM name_method = 'own_class_center',name_function = 'exp' starting...
+
+	 Beta 'own_class_center' with exp = 0.5
+
+
+So luong samples Tong: 3506
+
+So luong samples training: 2671
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3506
+
+So luong samples training: 2671
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'estimated_hyper_lin' with exp = 0.1
+
+
+So luong samples Tong: 3506
+
+So luong samples training: 2671
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3506
+
+So luong samples training: 2671
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      0.82      0.90       829
+         1.0       0.01      0.33      0.03         6
+
+    accuracy                           0.82       835
+   macro avg       0.50      0.58      0.46       835
+weighted avg       0.99      0.82      0.89       835
+
+SP      : 0.8215
+SE      : 0.3333
+Gmean   : 0.5233
+F1 Score: 0.0256
+Accuracy: 0.8180
+AUC     : 0.5774
+
+Ma tran nham lan: 
+[[681 148]
+ [  4   2]]
+
+	Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'actual_hyper_lin' with exp = 0.5
+
+
+So luong samples Tong: 3506
+
+So luong samples training: 2671
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	========== USING TOMEKLINKS ==========
+
+=================== K = 5  ========================
+*****************************=================================
+
+
+	SVM LIBRARY starting...
+
+
+	SVM LIBRARY base, Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	SVM LIBRARY base, Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'exp' starting...
+
+	 Beta 'own_class_center_opposite' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	SVM LIBRARY base, Fuzzy W.SVM name_method = 'own_class_center',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	SVM LIBRARY base, Fuzzy W.SVM name_method = 'own_class_center',name_function = 'exp' starting...
+
+	 Beta 'own_class_center' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	SVM LIBRARY base, Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	SVM LIBRARY base, Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'estimated_hyper_lin' with exp = 0.1
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	SVM LIBRARY base, Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      0.77      0.86       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.76       835
+   macro avg       0.50      0.38      0.43       835
+weighted avg       0.98      0.76      0.86       835
+
+SP      : 0.7660
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.7605
+AUC     : 0.3830
+
+Ma tran nham lan: 
+[[635 194]
+ [  6   0]]
+
+	SVM LIBRARY base, Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'actual_hyper_lin' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	W.SVM starting...
+
+
+	W.SVM base, Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	W.SVM base, Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'exp' starting...
+
+	 Beta 'own_class_center_opposite' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	W.SVM base, Fuzzy W.SVM name_method = 'own_class_center',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	W.SVM base, Fuzzy W.SVM name_method = 'own_class_center',name_function = 'exp' starting...
+
+	 Beta 'own_class_center' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	W.SVM base, Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	W.SVM base, Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'estimated_hyper_lin' with exp = 0.1
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	W.SVM base, Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      0.77      0.86       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.76       835
+   macro avg       0.50      0.38      0.43       835
+weighted avg       0.98      0.76      0.86       835
+
+SP      : 0.7660
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.7605
+AUC     : 0.3830
+
+Ma tran nham lan: 
+[[635 194]
+ [  6   0]]
+
+	W.SVM base, Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'actual_hyper_lin' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'exp' starting...
+
+	 Beta 'own_class_center_opposite' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'own_class_center',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'own_class_center',name_function = 'exp' starting...
+
+	 Beta 'own_class_center' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'estimated_hyper_lin' with exp = 0.1
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      0.77      0.86       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.76       835
+   macro avg       0.50      0.38      0.43       835
+weighted avg       0.98      0.76      0.86       835
+
+SP      : 0.7660
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.7605
+AUC     : 0.3830
+
+Ma tran nham lan: 
+[[635 194]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'actual_hyper_lin' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+	 Beta 'own_class_center_opposite' with exp = 0.5
+
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'exp' starting...
+
+	 Beta 'own_class_center_opposite' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'own_class_center',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'own_class_center',name_function = 'exp' starting...
+
+	 Beta 'own_class_center' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'estimated_hyper_lin' with exp = 0.1
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      0.77      0.86       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.76       835
+   macro avg       0.50      0.38      0.43       835
+weighted avg       0.98      0.76      0.86       835
+
+SP      : 0.7660
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.7605
+AUC     : 0.3830
+
+Ma tran nham lan: 
+[[635 194]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center_opposite',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'actual_hyper_lin' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'exp' starting...
+
+	 Beta 'own_class_center_opposite' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'own_class_center',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'own_class_center',name_function = 'exp' starting...
+
+	 Beta 'own_class_center' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'estimated_hyper_lin' with exp = 0.1
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      0.77      0.86       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.76       835
+   macro avg       0.50      0.38      0.43       835
+weighted avg       0.98      0.76      0.86       835
+
+SP      : 0.7660
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.7605
+AUC     : 0.3830
+
+Ma tran nham lan: 
+[[635 194]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'lin_center_own'
+ Fuzzy W.SVM name_method = 'actual_hyper_lin',name_function = 'exp' starting...
+
+	 Beta 'actual_hyper_lin' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+	 Beta 'own_class_center' with exp = 0.5
+
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'own_class_center_opposite',name_function = 'exp' starting...
+
+	 Beta 'own_class_center_opposite' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'own_class_center',name_function = 'lin_center_own' starting...
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'own_class_center',name_function = 'exp' starting...
+
+	 Beta 'own_class_center' with exp = 0.5
+
+
+So luong samples Tong: 3497
+
+So luong samples training: 2662
+So luong samples testing: 835
+
+              precision    recall  f1-score   support
+
+        -1.0       0.99      1.00      1.00       829
+         1.0       0.00      0.00      0.00         6
+
+    accuracy                           0.99       835
+   macro avg       0.50      0.50      0.50       835
+weighted avg       0.99      0.99      0.99       835
+
+SP      : 1.0000
+SE      : 0.0000
+Gmean   : 0.0000
+F1 Score: 0.0000
+Accuracy: 0.9928
+AUC     : 0.5000
+
+Ma tran nham lan: 
+[[829   0]
+ [  6   0]]
+
+	FuzzyBase name_method = 'own_class_center',name_function = 'exp'
+ Fuzzy W.SVM name_method = 'estimated_hyper_lin',name_function = 'lin_center_own' starting...

@@ -1,0 +1,475 @@
+KB2 | Dataset: transfusion
+Bắt đầu: 2026-03-15 08:39:05.808756
+
+
+--- Rep 01 | Fold 1 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0809s
+  BL-SMOTE+W-SVM                 | Gm=0.7030 | AUC=0.7032 | t=0.2459s
+  AFW-CIL_default                | Gm=0.6623 | AUC=0.6725 | t=0.0507s
+  PSO-AFW-CIL                    | Gm=0.6244 | AUC=0.6608 | t=0.058s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6801 | AUC=0.6813 | t=0.1814s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6801 | AUC=0.6813 | t=0.1861s
+
+--- Rep 01 | Fold 2 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.3785 | AUC=0.5132 | t=0.1602s
+  BL-SMOTE+W-SVM                 | Gm=0.6849 | AUC=0.6849 | t=0.2944s
+  AFW-CIL_default                | Gm=0.6173 | AUC=0.6396 | t=0.0567s
+  PSO-AFW-CIL                    | Gm=0.6106 | AUC=0.6308 | t=0.0536s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6939 | AUC=0.6944 | t=0.1705s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6984 | AUC=0.6988 | t=0.155s
+
+--- Rep 01 | Fold 3 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0674s
+  BL-SMOTE+W-SVM                 | Gm=0.6689 | AUC=0.6732 | t=0.1585s
+  AFW-CIL_default                | Gm=0.6670 | AUC=0.6696 | t=0.0533s
+  PSO-AFW-CIL                    | Gm=0.6630 | AUC=0.6652 | t=0.0539s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6738 | AUC=0.6776 | t=0.1561s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6608 | AUC=0.6696 | t=0.1973s
+
+--- Rep 01 | Fold 4 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0713s
+  BL-SMOTE+W-SVM                 | Gm=0.6806 | AUC=0.6895 | t=0.2268s
+  AFW-CIL_default                | Gm=0.7023 | AUC=0.7025 | t=0.0534s
+  PSO-AFW-CIL                    | Gm=0.6926 | AUC=0.6959 | t=0.0621s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6702 | AUC=0.6807 | t=0.1574s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6702 | AUC=0.6807 | t=0.1566s
+
+--- Rep 01 | Fold 5 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0615s
+  BL-SMOTE+W-SVM                 | Gm=0.7059 | AUC=0.7114 | t=0.1526s
+  AFW-CIL_default                | Gm=0.6569 | AUC=0.6596 | t=0.0561s
+  PSO-AFW-CIL                    | Gm=0.6229 | AUC=0.6343 | t=0.0624s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6857 | AUC=0.6939 | t=0.2413s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6857 | AUC=0.6939 | t=0.1957s
+
+[✔] Checkpoint rep 1: ./Experiment/Test_transfusion_15032026_081348/Test_transfusion_KB2_rep01_checkpoint.csv
+
+--- Rep 02 | Fold 1 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0841s
+  BL-SMOTE+W-SVM                 | Gm=0.6511 | AUC=0.6659 | t=0.388s
+  AFW-CIL_default                | Gm=0.6937 | AUC=0.6937 | t=0.0537s
+  PSO-AFW-CIL                    | Gm=0.6820 | AUC=0.6835 | t=0.0609s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6511 | AUC=0.6659 | t=0.1786s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6511 | AUC=0.6659 | t=0.1824s
+
+--- Rep 02 | Fold 2 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.3899 | AUC=0.5395 | t=0.0861s
+  BL-SMOTE+W-SVM                 | Gm=0.6811 | AUC=0.6871 | t=0.2145s
+  AFW-CIL_default                | Gm=0.6474 | AUC=0.6550 | t=0.0833s
+  PSO-AFW-CIL                    | Gm=0.6398 | AUC=0.6462 | t=0.0559s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6829 | AUC=0.6923 | t=0.1934s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6881 | AUC=0.6966 | t=0.1739s
+
+--- Rep 02 | Fold 3 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0694s
+  BL-SMOTE+W-SVM                 | Gm=0.7024 | AUC=0.7025 | t=0.2074s
+  AFW-CIL_default                | Gm=0.6786 | AUC=0.6864 | t=0.0476s
+  PSO-AFW-CIL                    | Gm=0.6804 | AUC=0.6944 | t=0.0519s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6981 | AUC=0.6981 | t=0.3571s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6981 | AUC=0.6981 | t=0.2063s
+
+--- Rep 02 | Fold 4 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0774s
+  BL-SMOTE+W-SVM                 | Gm=0.7351 | AUC=0.7377 | t=0.2304s
+  AFW-CIL_default                | Gm=0.7005 | AUC=0.7046 | t=0.0573s
+  PSO-AFW-CIL                    | Gm=0.7005 | AUC=0.7046 | t=0.0561s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7432 | AUC=0.7476 | t=0.1726s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7133 | AUC=0.7213 | t=0.1641s
+
+--- Rep 02 | Fold 5 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.1769s
+  BL-SMOTE+W-SVM                 | Gm=0.6531 | AUC=0.6531 | t=0.3585s
+  AFW-CIL_default                | Gm=0.6265 | AUC=0.6387 | t=0.0681s
+  PSO-AFW-CIL                    | Gm=0.5651 | AUC=0.6155 | t=0.0755s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6531 | AUC=0.6531 | t=0.2009s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6352 | AUC=0.6356 | t=0.1695s
+
+[✔] Checkpoint rep 2: ./Experiment/Test_transfusion_15032026_081348/Test_transfusion_KB2_rep02_checkpoint.csv
+
+--- Rep 03 | Fold 1 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0635s
+  BL-SMOTE+W-SVM                 | Gm=0.7424 | AUC=0.7449 | t=0.1909s
+  AFW-CIL_default                | Gm=0.6526 | AUC=0.6674 | t=0.0556s
+  PSO-AFW-CIL                    | Gm=0.6468 | AUC=0.6791 | t=0.0587s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7472 | AUC=0.7493 | t=0.1798s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7133 | AUC=0.7186 | t=0.1846s
+
+--- Rep 03 | Fold 2 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.5656 | AUC=0.6235 | t=0.0867s
+  BL-SMOTE+W-SVM                 | Gm=0.6893 | AUC=0.6901 | t=0.1724s
+  AFW-CIL_default                | Gm=0.6586 | AUC=0.6681 | t=0.0574s
+  PSO-AFW-CIL                    | Gm=0.6623 | AUC=0.6725 | t=0.0729s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6707 | AUC=0.6725 | t=0.1918s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6707 | AUC=0.6725 | t=0.3361s
+
+--- Rep 03 | Fold 3 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.1169s
+  BL-SMOTE+W-SVM                 | Gm=0.6515 | AUC=0.6550 | t=0.2738s
+  AFW-CIL_default                | Gm=0.5960 | AUC=0.6053 | t=0.0585s
+  PSO-AFW-CIL                    | Gm=0.6142 | AUC=0.6272 | t=0.0505s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6436 | AUC=0.6455 | t=0.1917s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6283 | AUC=0.6382 | t=0.2111s
+
+--- Rep 03 | Fold 4 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0718s
+  BL-SMOTE+W-SVM                 | Gm=0.7265 | AUC=0.7278 | t=0.1592s
+  AFW-CIL_default                | Gm=0.7199 | AUC=0.7266 | t=0.0599s
+  PSO-AFW-CIL                    | Gm=0.7203 | AUC=0.7233 | t=0.0685s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7124 | AUC=0.7147 | t=0.1437s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7124 | AUC=0.7147 | t=0.1412s
+
+--- Rep 03 | Fold 5 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.5593 | AUC=0.6276 | t=0.0958s
+  BL-SMOTE+W-SVM                 | Gm=0.6529 | AUC=0.6620 | t=0.1654s
+  AFW-CIL_default                | Gm=0.6855 | AUC=0.6861 | t=0.0488s
+  PSO-AFW-CIL                    | Gm=0.6855 | AUC=0.6861 | t=0.0565s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6649 | AUC=0.6763 | t=0.192s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6649 | AUC=0.6763 | t=0.2198s
+
+[✔] Checkpoint rep 3: ./Experiment/Test_transfusion_15032026_081348/Test_transfusion_KB2_rep03_checkpoint.csv
+
+--- Rep 04 | Fold 1 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.4272 | AUC=0.5665 | t=0.0825s
+  BL-SMOTE+W-SVM                 | Gm=0.6126 | AUC=0.6155 | t=0.1965s
+  AFW-CIL_default                | Gm=0.5158 | AUC=0.5658 | t=0.0584s
+  PSO-AFW-CIL                    | Gm=0.5158 | AUC=0.5658 | t=0.0536s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6126 | AUC=0.6155 | t=0.1809s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6086 | AUC=0.6111 | t=0.4392s
+
+--- Rep 04 | Fold 2 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0535s
+  BL-SMOTE+W-SVM                 | Gm=0.6893 | AUC=0.6901 | t=0.1682s
+  AFW-CIL_default                | Gm=0.6748 | AUC=0.6820 | t=0.059s
+  PSO-AFW-CIL                    | Gm=0.6672 | AUC=0.6732 | t=0.0628s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6893 | AUC=0.6901 | t=0.1748s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6847 | AUC=0.6857 | t=0.2029s
+
+--- Rep 04 | Fold 3 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.06s
+  BL-SMOTE+W-SVM                 | Gm=0.6998 | AUC=0.7105 | t=0.2756s
+  AFW-CIL_default                | Gm=0.7061 | AUC=0.7135 | t=0.0553s
+  PSO-AFW-CIL                    | Gm=0.7061 | AUC=0.7135 | t=0.0521s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7114 | AUC=0.7244 | t=0.1855s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7114 | AUC=0.7244 | t=0.1877s
+
+--- Rep 04 | Fold 4 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0792s
+  BL-SMOTE+W-SVM                 | Gm=0.7184 | AUC=0.7257 | t=0.1975s
+  AFW-CIL_default                | Gm=0.7723 | AUC=0.7728 | t=0.0526s
+  PSO-AFW-CIL                    | Gm=0.6192 | AUC=0.6617 | t=0.0669s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7082 | AUC=0.7169 | t=0.1848s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7082 | AUC=0.7169 | t=0.2992s
+
+--- Rep 04 | Fold 5 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.5849 | AUC=0.6462 | t=0.3931s
+  BL-SMOTE+W-SVM                 | Gm=0.6857 | AUC=0.6939 | t=0.2791s
+  AFW-CIL_default                | Gm=0.6531 | AUC=0.6531 | t=0.0546s
+  PSO-AFW-CIL                    | Gm=0.3713 | AUC=0.5539 | t=0.0533s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6857 | AUC=0.6939 | t=0.205s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6857 | AUC=0.6939 | t=0.1679s
+
+[✔] Checkpoint rep 4: ./Experiment/Test_transfusion_15032026_081348/Test_transfusion_KB2_rep04_checkpoint.csv
+
+--- Rep 05 | Fold 1 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0761s
+  BL-SMOTE+W-SVM                 | Gm=0.6984 | AUC=0.6988 | t=0.2539s
+  AFW-CIL_default                | Gm=0.6696 | AUC=0.6813 | t=0.0461s
+  PSO-AFW-CIL                    | Gm=0.6526 | AUC=0.6674 | t=0.0468s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6984 | AUC=0.6988 | t=0.1908s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6984 | AUC=0.6988 | t=0.1808s
+
+--- Rep 05 | Fold 2 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.1006s
+  BL-SMOTE+W-SVM                 | Gm=0.5942 | AUC=0.5958 | t=0.2258s
+  AFW-CIL_default                | Gm=0.6161 | AUC=0.6235 | t=0.0545s
+  PSO-AFW-CIL                    | Gm=0.5757 | AUC=0.5950 | t=0.05s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6070 | AUC=0.6096 | t=0.1915s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6070 | AUC=0.6096 | t=0.1769s
+
+--- Rep 05 | Fold 3 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.4911 | AUC=0.5731 | t=0.076s
+  BL-SMOTE+W-SVM                 | Gm=0.7228 | AUC=0.7383 | t=0.1816s
+  AFW-CIL_default                | Gm=0.7024 | AUC=0.7025 | t=0.0564s
+  PSO-AFW-CIL                    | Gm=0.7164 | AUC=0.7164 | t=0.0503s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7119 | AUC=0.7295 | t=0.1987s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7119 | AUC=0.7295 | t=0.1788s
+
+--- Rep 05 | Fold 4 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0646s
+  BL-SMOTE+W-SVM                 | Gm=0.6944 | AUC=0.6960 | t=0.1906s
+  AFW-CIL_default                | Gm=0.6679 | AUC=0.6761 | t=0.057s
+  PSO-AFW-CIL                    | Gm=0.6717 | AUC=0.6805 | t=0.0565s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6944 | AUC=0.6960 | t=0.2131s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6946 | AUC=0.6949 | t=0.1974s
+
+--- Rep 05 | Fold 5 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.4702 | AUC=0.5584 | t=0.1003s
+  BL-SMOTE+W-SVM                 | Gm=0.7265 | AUC=0.7278 | t=0.1913s
+  AFW-CIL_default                | Gm=0.6399 | AUC=0.6486 | t=0.0534s
+  PSO-AFW-CIL                    | Gm=0.6689 | AUC=0.6728 | t=0.0566s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7265 | AUC=0.7278 | t=0.1902s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7351 | AUC=0.7377 | t=0.3788s
+
+[✔] Checkpoint rep 5: ./Experiment/Test_transfusion_15032026_081348/Test_transfusion_KB2_rep05_checkpoint.csv
+
+--- Rep 06 | Fold 1 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.1188s
+  BL-SMOTE+W-SVM                 | Gm=0.6893 | AUC=0.7018 | t=0.3186s
+  AFW-CIL_default                | Gm=0.6967 | AUC=0.6974 | t=0.0565s
+  PSO-AFW-CIL                    | Gm=0.6654 | AUC=0.6659 | t=0.0572s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6788 | AUC=0.6981 | t=0.1744s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6732 | AUC=0.6937 | t=0.1834s
+
+--- Rep 06 | Fold 2 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0723s
+  BL-SMOTE+W-SVM                 | Gm=0.6983 | AUC=0.7054 | t=0.1851s
+  AFW-CIL_default                | Gm=0.6983 | AUC=0.7010 | t=0.0593s
+  PSO-AFW-CIL                    | Gm=0.6672 | AUC=0.6732 | t=0.056s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6983 | AUC=0.7054 | t=0.1756s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6983 | AUC=0.7054 | t=0.1942s
+
+--- Rep 06 | Fold 3 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.4252 | AUC=0.5621 | t=0.089s
+  BL-SMOTE+W-SVM                 | Gm=0.6508 | AUC=0.6520 | t=0.2133s
+  AFW-CIL_default                | Gm=0.6054 | AUC=0.6345 | t=0.0506s
+  PSO-AFW-CIL                    | Gm=0.6054 | AUC=0.6345 | t=0.061s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6508 | AUC=0.6520 | t=0.1872s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6508 | AUC=0.6520 | t=0.1916s
+
+--- Rep 06 | Fold 4 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.067s
+  BL-SMOTE+W-SVM                 | Gm=0.6991 | AUC=0.6992 | t=0.1838s
+  AFW-CIL_default                | Gm=0.6689 | AUC=0.6728 | t=0.0587s
+  PSO-AFW-CIL                    | Gm=0.6754 | AUC=0.6848 | t=0.0498s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6763 | AUC=0.6773 | t=0.1689s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6705 | AUC=0.6741 | t=0.1968s
+
+--- Rep 06 | Fold 5 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.4828 | AUC=0.5508 | t=0.0858s
+  BL-SMOTE+W-SVM                 | Gm=0.7157 | AUC=0.7202 | t=0.1934s
+  AFW-CIL_default                | Gm=0.6450 | AUC=0.6497 | t=0.0538s
+  PSO-AFW-CIL                    | Gm=0.6140 | AUC=0.6409 | t=0.0591s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7076 | AUC=0.7103 | t=0.1792s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7076 | AUC=0.7103 | t=0.1763s
+
+[✔] Checkpoint rep 6: ./Experiment/Test_transfusion_15032026_081348/Test_transfusion_KB2_rep06_checkpoint.csv
+
+--- Rep 07 | Fold 1 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.5628 | AUC=0.6192 | t=0.0966s
+  BL-SMOTE+W-SVM                 | Gm=0.6977 | AUC=0.6996 | t=0.1695s
+  AFW-CIL_default                | Gm=0.6213 | AUC=0.6360 | t=0.0523s
+  PSO-AFW-CIL                    | Gm=0.6213 | AUC=0.6360 | t=0.0478s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7231 | AUC=0.7273 | t=0.2778s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7280 | AUC=0.7317 | t=0.2113s
+
+--- Rep 07 | Fold 2 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0809s
+  BL-SMOTE+W-SVM                 | Gm=0.7071 | AUC=0.7083 | t=0.1982s
+  AFW-CIL_default                | Gm=0.6829 | AUC=0.6871 | t=0.0596s
+  PSO-AFW-CIL                    | Gm=0.6868 | AUC=0.6915 | t=0.054s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7071 | AUC=0.7083 | t=0.3457s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7071 | AUC=0.7083 | t=0.1994s
+
+--- Rep 07 | Fold 3 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0497s
+  BL-SMOTE+W-SVM                 | Gm=0.7375 | AUC=0.7463 | t=0.1362s
+  AFW-CIL_default                | Gm=0.7238 | AUC=0.7244 | t=0.0564s
+  PSO-AFW-CIL                    | Gm=0.7238 | AUC=0.7244 | t=0.055s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7114 | AUC=0.7244 | t=0.1587s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7114 | AUC=0.7244 | t=0.1859s
+
+--- Rep 07 | Fold 4 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0867s
+  BL-SMOTE+W-SVM                 | Gm=0.6352 | AUC=0.6356 | t=0.2108s
+  AFW-CIL_default                | Gm=0.6473 | AUC=0.6574 | t=0.0515s
+  PSO-AFW-CIL                    | Gm=0.6437 | AUC=0.6530 | t=0.0578s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6395 | AUC=0.6411 | t=0.1866s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6442 | AUC=0.6455 | t=0.1765s
+
+--- Rep 07 | Fold 5 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.4913 | AUC=0.5979 | t=0.091s
+  BL-SMOTE+W-SVM                 | Gm=0.5978 | AUC=0.6005 | t=0.1824s
+  AFW-CIL_default                | Gm=0.5974 | AUC=0.6189 | t=0.0598s
+  PSO-AFW-CIL                    | Gm=0.5804 | AUC=0.5970 | t=0.0568s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5978 | AUC=0.6005 | t=0.1917s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5978 | AUC=0.6005 | t=0.1734s
+
+[✔] Checkpoint rep 7: ./Experiment/Test_transfusion_15032026_081348/Test_transfusion_KB2_rep07_checkpoint.csv
+
+--- Rep 08 | Fold 1 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0894s
+  BL-SMOTE+W-SVM                 | Gm=0.7105 | AUC=0.7135 | t=0.2194s
+  AFW-CIL_default                | Gm=0.6983 | AUC=0.7010 | t=0.0516s
+  PSO-AFW-CIL                    | Gm=0.7023 | AUC=0.7054 | t=0.0553s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7105 | AUC=0.7135 | t=0.1606s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7057 | AUC=0.7091 | t=0.1782s
+
+--- Rep 08 | Fold 2 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0842s
+  BL-SMOTE+W-SVM                 | Gm=0.7295 | AUC=0.7295 | t=0.2012s
+  AFW-CIL_default                | Gm=0.6597 | AUC=0.6762 | t=0.1228s
+  PSO-AFW-CIL                    | Gm=0.5229 | AUC=0.6001 | t=0.0584s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7434 | AUC=0.7434 | t=0.1683s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7164 | AUC=0.7171 | t=0.2023s
+
+--- Rep 08 | Fold 3 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0813s
+  BL-SMOTE+W-SVM                 | Gm=0.5874 | AUC=0.5921 | t=0.2192s
+  AFW-CIL_default                | Gm=0.5997 | AUC=0.6096 | t=0.0679s
+  PSO-AFW-CIL                    | Gm=0.5893 | AUC=0.6250 | t=0.0596s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5874 | AUC=0.5921 | t=0.1659s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5956 | AUC=0.6067 | t=0.1761s
+
+--- Rep 08 | Fold 4 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.5355 | AUC=0.6133 | t=0.113s
+  BL-SMOTE+W-SVM                 | Gm=0.6931 | AUC=0.6971 | t=0.1809s
+  AFW-CIL_default                | Gm=0.6529 | AUC=0.6553 | t=0.0538s
+  PSO-AFW-CIL                    | Gm=0.5947 | AUC=0.6069 | t=0.0583s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6882 | AUC=0.6927 | t=0.1805s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6783 | AUC=0.6840 | t=0.1799s
+
+--- Rep 08 | Fold 5 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0581s
+  BL-SMOTE+W-SVM                 | Gm=0.7303 | AUC=0.7333 | t=0.1732s
+  AFW-CIL_default                | Gm=0.7192 | AUC=0.7201 | t=0.05s
+  PSO-AFW-CIL                    | Gm=0.7009 | AUC=0.7155 | t=0.0597s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7009 | AUC=0.7070 | t=0.2014s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6908 | AUC=0.6982 | t=0.2123s
+
+[✔] Checkpoint rep 8: ./Experiment/Test_transfusion_15032026_081348/Test_transfusion_KB2_rep08_checkpoint.csv
+
+--- Rep 09 | Fold 1 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.4272 | AUC=0.5665 | t=0.0901s
+  BL-SMOTE+W-SVM                 | Gm=0.6368 | AUC=0.6418 | t=0.1886s
+  AFW-CIL_default                | Gm=0.6244 | AUC=0.6287 | t=0.0613s
+  PSO-AFW-CIL                    | Gm=0.5326 | AUC=0.5921 | t=0.0529s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6368 | AUC=0.6418 | t=0.1723s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6589 | AUC=0.6645 | t=0.1895s
+
+--- Rep 09 | Fold 2 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0867s
+  BL-SMOTE+W-SVM                 | Gm=0.5847 | AUC=0.5870 | t=0.1661s
+  AFW-CIL_default                | Gm=0.6398 | AUC=0.6462 | t=0.0509s
+  PSO-AFW-CIL                    | Gm=0.6455 | AUC=0.6667 | t=0.054s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.5895 | AUC=0.5914 | t=0.1667s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.5895 | AUC=0.5914 | t=0.1566s
+
+--- Rep 09 | Fold 3 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0799s
+  BL-SMOTE+W-SVM                 | Gm=0.7478 | AUC=0.7478 | t=0.1543s
+  AFW-CIL_default                | Gm=0.7061 | AUC=0.7135 | t=0.0631s
+  PSO-AFW-CIL                    | Gm=0.7023 | AUC=0.7091 | t=0.0561s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7660 | AUC=0.7661 | t=0.1474s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7480 | AUC=0.7485 | t=0.187s
+
+--- Rep 09 | Fold 4 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0716s
+  BL-SMOTE+W-SVM                 | Gm=0.7124 | AUC=0.7147 | t=0.1606s
+  AFW-CIL_default                | Gm=0.6336 | AUC=0.6475 | t=0.0527s
+  PSO-AFW-CIL                    | Gm=0.6395 | AUC=0.6639 | t=0.0562s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7124 | AUC=0.7147 | t=0.1732s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7175 | AUC=0.7179 | t=0.1645s
+
+--- Rep 09 | Fold 5 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0607s
+  BL-SMOTE+W-SVM                 | Gm=0.6717 | AUC=0.6917 | t=0.1628s
+  AFW-CIL_default                | Gm=0.7122 | AUC=0.7178 | t=0.0756s
+  PSO-AFW-CIL                    | Gm=0.6336 | AUC=0.6475 | t=0.0745s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6828 | AUC=0.7005 | t=0.1983s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6772 | AUC=0.6961 | t=0.201s
+
+[✔] Checkpoint rep 9: ./Experiment/Test_transfusion_15032026_081348/Test_transfusion_KB2_rep09_checkpoint.csv
+
+--- Rep 10 | Fold 1 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0594s
+  BL-SMOTE+W-SVM                 | Gm=0.7704 | AUC=0.7712 | t=0.1727s
+  AFW-CIL_default                | Gm=0.6701 | AUC=0.6893 | t=0.0526s
+  PSO-AFW-CIL                    | Gm=0.6701 | AUC=0.6893 | t=0.0523s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7502 | AUC=0.7544 | t=0.1825s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7599 | AUC=0.7632 | t=0.1878s
+
+--- Rep 10 | Fold 2 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.0686s
+  BL-SMOTE+W-SVM                 | Gm=0.7117 | AUC=0.7127 | t=0.2278s
+  AFW-CIL_default                | Gm=0.6511 | AUC=0.6594 | t=0.0493s
+  PSO-AFW-CIL                    | Gm=0.6511 | AUC=0.6594 | t=0.0821s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6882 | AUC=0.6908 | t=0.1877s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6738 | AUC=0.6776 | t=0.2254s
+
+--- Rep 10 | Fold 3 ---
+  Train=598 → SMOTE=912
+  W-SVM                          | Gm=0.4961 | AUC=0.5819 | t=0.0923s
+  BL-SMOTE+W-SVM                 | Gm=0.6389 | AUC=0.6411 | t=0.2435s
+  AFW-CIL_default                | Gm=0.6086 | AUC=0.6148 | t=0.0582s
+  PSO-AFW-CIL                    | Gm=0.6360 | AUC=0.6418 | t=0.0563s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6436 | AUC=0.6455 | t=0.1888s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6306 | AUC=0.6316 | t=0.2094s
+
+--- Rep 10 | Fold 4 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.5566 | AUC=0.6232 | t=0.0833s
+  BL-SMOTE+W-SVM                 | Gm=0.6575 | AUC=0.6575 | t=0.2487s
+  AFW-CIL_default                | Gm=0.6806 | AUC=0.6860 | t=0.05s
+  PSO-AFW-CIL                    | Gm=0.6583 | AUC=0.6706 | t=0.0641s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6487 | AUC=0.6487 | t=0.1958s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6581 | AUC=0.6586 | t=0.304s
+
+--- Rep 10 | Fold 5 ---
+  Train=599 → SMOTE=912
+  W-SVM                          | Gm=0.0000 | AUC=0.5000 | t=0.1262s
+  BL-SMOTE+W-SVM                 | Gm=0.6926 | AUC=0.7038 | t=0.2387s
+  AFW-CIL_default                | Gm=0.6748 | AUC=0.6751 | t=0.0616s
+  PSO-AFW-CIL                    | Gm=0.6875 | AUC=0.6882 | t=0.053s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6926 | AUC=0.7038 | t=0.1568s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6926 | AUC=0.7038 | t=0.1765s
+
+[✔] Checkpoint rep 10: ./Experiment/Test_transfusion_15032026_081348/Test_transfusion_KB2_rep10_checkpoint.csv
+
+Kết thúc: 2026-03-15 09:43:48.450164

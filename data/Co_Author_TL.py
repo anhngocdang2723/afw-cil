@@ -20,7 +20,7 @@ def load_data(epoch_tl,test_size, new_rate):
     tl = TomekLinks(sampling_strategy = 'not minority')
     print('Original dataset shape %s' % Counter(y))
     for i in range(0,epoch_tl):
-        X, y = tl.fit_resample(X, y)
+        X, y = tl.fit_resample(X, y)[:2] ## trả về X, y sau khi áp dụng TomekLinks
         print('After TomekLink dataset shape %s' % Counter(y))
     
     X_train, X_test, y_train, y_test = tts(X, y, test_size=test_size, random_state=42,stratify=y)
