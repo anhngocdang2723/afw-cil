@@ -1,0 +1,475 @@
+KB2 | Dataset: yeast
+Bắt đầu: 2026-03-15 17:09:53.761006
+
+
+--- Rep 01 | Fold 1 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6540 | AUC=0.6903 | t=0.3379s
+  BL-SMOTE+W-SVM                 | Gm=0.7611 | AUC=0.7630 | t=2.9063s
+  AFW-CIL_default                | Gm=0.6892 | AUC=0.7129 | t=0.2932s
+  PSO-AFW-CIL                    | Gm=0.7006 | AUC=0.7151 | t=0.2865s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7494 | AUC=0.7508 | t=2.5677s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7473 | AUC=0.7488 | t=2.7729s
+
+--- Rep 01 | Fold 2 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6481 | AUC=0.6922 | t=0.3778s
+  BL-SMOTE+W-SVM                 | Gm=0.7017 | AUC=0.7018 | t=2.7723s
+  AFW-CIL_default                | Gm=0.6526 | AUC=0.6883 | t=0.2583s
+  PSO-AFW-CIL                    | Gm=0.6651 | AUC=0.6965 | t=0.4634s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7017 | AUC=0.7018 | t=2.6938s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6957 | AUC=0.6957 | t=3.1469s
+
+--- Rep 01 | Fold 3 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7000 | AUC=0.7270 | t=0.3451s
+  BL-SMOTE+W-SVM                 | Gm=0.7601 | AUC=0.7609 | t=2.566s
+  AFW-CIL_default                | Gm=0.7328 | AUC=0.7495 | t=0.2569s
+  PSO-AFW-CIL                    | Gm=0.7328 | AUC=0.7495 | t=0.2717s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7601 | AUC=0.7609 | t=2.3456s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7601 | AUC=0.7609 | t=2.4429s
+
+--- Rep 01 | Fold 4 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7776 | AUC=0.7941 | t=0.3576s
+  BL-SMOTE+W-SVM                 | Gm=0.8032 | AUC=0.8033 | t=2.4536s
+  AFW-CIL_default                | Gm=0.8039 | AUC=0.8127 | t=0.2475s
+  PSO-AFW-CIL                    | Gm=0.7937 | AUC=0.8045 | t=0.2725s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.8032 | AUC=0.8033 | t=2.5488s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8032 | AUC=0.8033 | t=2.4292s
+
+--- Rep 01 | Fold 5 ---
+  Train=1188 → SMOTE=1984
+  W-SVM                          | Gm=0.7534 | AUC=0.7718 | t=0.2789s
+  BL-SMOTE+W-SVM                 | Gm=0.7835 | AUC=0.7843 | t=2.4446s
+  AFW-CIL_default                | Gm=0.7756 | AUC=0.7886 | t=0.266s
+  PSO-AFW-CIL                    | Gm=0.7722 | AUC=0.7846 | t=0.2925s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7649 | AUC=0.7658 | t=2.8974s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7688 | AUC=0.7698 | t=2.8716s
+
+[✔] Checkpoint rep 1: ./Experiment/Test_yeast_15032026_154321/Test_yeast_KB2_rep01_checkpoint.csv
+
+--- Rep 02 | Fold 1 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6681 | AUC=0.7005 | t=0.4595s
+  BL-SMOTE+W-SVM                 | Gm=0.7164 | AUC=0.7178 | t=2.7742s
+  AFW-CIL_default                | Gm=0.6907 | AUC=0.7149 | t=0.2688s
+  PSO-AFW-CIL                    | Gm=0.6923 | AUC=0.7169 | t=0.295s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7164 | AUC=0.7178 | t=2.4201s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7183 | AUC=0.7198 | t=3.0105s
+
+--- Rep 02 | Fold 2 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7015 | AUC=0.7290 | t=0.3034s
+  BL-SMOTE+W-SVM                 | Gm=0.7793 | AUC=0.7813 | t=2.8096s
+  AFW-CIL_default                | Gm=0.7610 | AUC=0.7740 | t=0.3401s
+  PSO-AFW-CIL                    | Gm=0.7453 | AUC=0.7598 | t=0.2759s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7858 | AUC=0.7873 | t=2.528s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7858 | AUC=0.7873 | t=2.4498s
+
+--- Rep 02 | Fold 3 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7643 | AUC=0.7780 | t=0.3057s
+  BL-SMOTE+W-SVM                 | Gm=0.7900 | AUC=0.7914 | t=2.6076s
+  AFW-CIL_default                | Gm=0.7559 | AUC=0.7679 | t=0.276s
+  PSO-AFW-CIL                    | Gm=0.7646 | AUC=0.7741 | t=0.2656s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7996 | AUC=0.8016 | t=2.8546s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7975 | AUC=0.7995 | t=3.0661s
+
+--- Rep 02 | Fold 4 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7180 | AUC=0.7433 | t=0.3036s
+  BL-SMOTE+W-SVM                 | Gm=0.7664 | AUC=0.7669 | t=2.4441s
+  AFW-CIL_default                | Gm=0.7168 | AUC=0.7353 | t=0.268s
+  PSO-AFW-CIL                    | Gm=0.7336 | AUC=0.7456 | t=0.2931s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7664 | AUC=0.7669 | t=2.5745s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7685 | AUC=0.7689 | t=2.5697s
+
+--- Rep 02 | Fold 5 ---
+  Train=1188 → SMOTE=1984
+  W-SVM                          | Gm=0.6646 | AUC=0.7110 | t=0.3249s
+  BL-SMOTE+W-SVM                 | Gm=0.7439 | AUC=0.7440 | t=2.5815s
+  AFW-CIL_default                | Gm=0.7285 | AUC=0.7530 | t=0.286s
+  PSO-AFW-CIL                    | Gm=0.7285 | AUC=0.7530 | t=0.3275s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7439 | AUC=0.7440 | t=2.4506s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7358 | AUC=0.7359 | t=3.0265s
+
+[✔] Checkpoint rep 2: ./Experiment/Test_yeast_15032026_154321/Test_yeast_KB2_rep02_checkpoint.csv
+
+--- Rep 03 | Fold 1 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7121 | AUC=0.7431 | t=0.3514s
+  BL-SMOTE+W-SVM                 | Gm=0.7561 | AUC=0.7565 | t=2.5763s
+  AFW-CIL_default                | Gm=0.7061 | AUC=0.7351 | t=0.2791s
+  PSO-AFW-CIL                    | Gm=0.7232 | AUC=0.7434 | t=0.2676s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7542 | AUC=0.7544 | t=2.4291s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7581 | AUC=0.7585 | t=2.6096s
+
+--- Rep 03 | Fold 2 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7393 | AUC=0.7576 | t=0.3279s
+  BL-SMOTE+W-SVM                 | Gm=0.7485 | AUC=0.7485 | t=2.6285s
+  AFW-CIL_default                | Gm=0.7663 | AUC=0.7761 | t=0.2785s
+  PSO-AFW-CIL                    | Gm=0.7576 | AUC=0.7700 | t=0.2834s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7505 | AUC=0.7505 | t=2.5746s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7465 | AUC=0.7465 | t=3.1417s
+
+--- Rep 03 | Fold 3 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6984 | AUC=0.7250 | t=0.3197s
+  BL-SMOTE+W-SVM                 | Gm=0.7953 | AUC=0.7975 | t=2.5873s
+  AFW-CIL_default                | Gm=0.7168 | AUC=0.7353 | t=0.4985s
+  PSO-AFW-CIL                    | Gm=0.7216 | AUC=0.7414 | t=0.2578s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7953 | AUC=0.7975 | t=2.6136s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7879 | AUC=0.7893 | t=2.706s
+
+--- Rep 03 | Fold 4 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7409 | AUC=0.7596 | t=0.3467s
+  BL-SMOTE+W-SVM                 | Gm=0.7666 | AUC=0.7667 | t=2.7498s
+  AFW-CIL_default                | Gm=0.7344 | AUC=0.7516 | t=0.2578s
+  PSO-AFW-CIL                    | Gm=0.7712 | AUC=0.7783 | t=0.3047s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7686 | AUC=0.7687 | t=2.46s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7686 | AUC=0.7687 | t=2.912s
+
+--- Rep 03 | Fold 5 ---
+  Train=1188 → SMOTE=1984
+  W-SVM                          | Gm=0.6384 | AUC=0.6845 | t=0.3319s
+  BL-SMOTE+W-SVM                 | Gm=0.7513 | AUC=0.7517 | t=3.0614s
+  AFW-CIL_default                | Gm=0.7436 | AUC=0.7597 | t=0.264s
+  PSO-AFW-CIL                    | Gm=0.7096 | AUC=0.7288 | t=0.2873s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7560 | AUC=0.7560 | t=2.7368s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7435 | AUC=0.7436 | t=3.0007s
+
+[✔] Checkpoint rep 3: ./Experiment/Test_yeast_15032026_154321/Test_yeast_KB2_rep03_checkpoint.csv
+
+--- Rep 04 | Fold 1 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7917 | AUC=0.8064 | t=0.447s
+  BL-SMOTE+W-SVM                 | Gm=0.8104 | AUC=0.8116 | t=2.4678s
+  AFW-CIL_default                | Gm=0.7989 | AUC=0.8105 | t=0.4759s
+  PSO-AFW-CIL                    | Gm=0.8091 | AUC=0.8187 | t=0.3004s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.8061 | AUC=0.8076 | t=2.4624s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8061 | AUC=0.8076 | t=2.6247s
+
+--- Rep 04 | Fold 2 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6495 | AUC=0.6942 | t=0.3467s
+  BL-SMOTE+W-SVM                 | Gm=0.7911 | AUC=0.7911 | t=2.661s
+  AFW-CIL_default                | Gm=0.7376 | AUC=0.7556 | t=0.2757s
+  PSO-AFW-CIL                    | Gm=0.7393 | AUC=0.7576 | t=0.284s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7869 | AUC=0.7869 | t=2.8425s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7869 | AUC=0.7869 | t=2.7287s
+
+--- Rep 04 | Fold 3 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7086 | AUC=0.7312 | t=0.3794s
+  BL-SMOTE+W-SVM                 | Gm=0.7300 | AUC=0.7304 | t=2.8036s
+  AFW-CIL_default                | Gm=0.7436 | AUC=0.7577 | t=0.2699s
+  PSO-AFW-CIL                    | Gm=0.7542 | AUC=0.7659 | t=0.5235s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7320 | AUC=0.7324 | t=2.5765s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7300 | AUC=0.7304 | t=2.5855s
+
+--- Rep 04 | Fold 4 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7226 | AUC=0.7493 | t=0.3284s
+  BL-SMOTE+W-SVM                 | Gm=0.7358 | AUC=0.7362 | t=2.754s
+  AFW-CIL_default                | Gm=0.7280 | AUC=0.7494 | t=0.2459s
+  PSO-AFW-CIL                    | Gm=0.6892 | AUC=0.7129 | t=0.2791s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7383 | AUC=0.7383 | t=2.7141s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7383 | AUC=0.7383 | t=2.9996s
+
+--- Rep 04 | Fold 5 ---
+  Train=1188 → SMOTE=1984
+  W-SVM                          | Gm=0.6675 | AUC=0.6956 | t=0.3404s
+  BL-SMOTE+W-SVM                 | Gm=0.6945 | AUC=0.6946 | t=2.5886s
+  AFW-CIL_default                | Gm=0.6853 | AUC=0.7043 | t=0.4145s
+  PSO-AFW-CIL                    | Gm=0.6967 | AUC=0.7127 | t=0.2956s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7173 | AUC=0.7174 | t=2.5746s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7070 | AUC=0.7070 | t=2.7128s
+
+[✔] Checkpoint rep 4: ./Experiment/Test_yeast_15032026_154321/Test_yeast_KB2_rep04_checkpoint.csv
+
+--- Rep 05 | Fold 1 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7248 | AUC=0.7454 | t=0.3938s
+  BL-SMOTE+W-SVM                 | Gm=0.7618 | AUC=0.7651 | t=2.4781s
+  AFW-CIL_default                | Gm=0.7542 | AUC=0.7659 | t=0.2722s
+  PSO-AFW-CIL                    | Gm=0.7594 | AUC=0.7681 | t=0.2973s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7662 | AUC=0.7692 | t=2.5845s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7618 | AUC=0.7651 | t=2.5821s
+
+--- Rep 05 | Fold 2 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7409 | AUC=0.7596 | t=0.3797s
+  BL-SMOTE+W-SVM                 | Gm=0.7900 | AUC=0.7914 | t=2.4553s
+  AFW-CIL_default                | Gm=0.7436 | AUC=0.7577 | t=0.2518s
+  PSO-AFW-CIL                    | Gm=0.7423 | AUC=0.7518 | t=0.2727s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7836 | AUC=0.7853 | t=2.2788s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7836 | AUC=0.7853 | t=2.7969s
+
+--- Rep 05 | Fold 3 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7425 | AUC=0.7616 | t=0.3791s
+  BL-SMOTE+W-SVM                 | Gm=0.7705 | AUC=0.7707 | t=2.7834s
+  AFW-CIL_default                | Gm=0.7535 | AUC=0.7698 | t=0.295s
+  PSO-AFW-CIL                    | Gm=0.7370 | AUC=0.7497 | t=0.2893s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7522 | AUC=0.7524 | t=2.5972s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7522 | AUC=0.7524 | t=2.4487s
+
+--- Rep 05 | Fold 4 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6870 | AUC=0.7268 | t=0.4311s
+  BL-SMOTE+W-SVM                 | Gm=0.7533 | AUC=0.7543 | t=2.605s
+  AFW-CIL_default                | Gm=0.7180 | AUC=0.7433 | t=0.2889s
+  PSO-AFW-CIL                    | Gm=0.7000 | AUC=0.7270 | t=0.2854s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7499 | AUC=0.7522 | t=2.6157s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7499 | AUC=0.7522 | t=2.7376s
+
+--- Rep 05 | Fold 5 ---
+  Train=1188 → SMOTE=1984
+  W-SVM                          | Gm=0.6810 | AUC=0.7137 | t=0.3325s
+  BL-SMOTE+W-SVM                 | Gm=0.7378 | AUC=0.7379 | t=2.5771s
+  AFW-CIL_default                | Gm=0.7404 | AUC=0.7557 | t=0.253s
+  PSO-AFW-CIL                    | Gm=0.7404 | AUC=0.7557 | t=0.2545s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7111 | AUC=0.7114 | t=2.6376s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7111 | AUC=0.7114 | t=2.7222s
+
+[✔] Checkpoint rep 5: ./Experiment/Test_yeast_15032026_154321/Test_yeast_KB2_rep05_checkpoint.csv
+
+--- Rep 06 | Fold 1 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7343 | AUC=0.7575 | t=0.3612s
+  BL-SMOTE+W-SVM                 | Gm=0.7789 | AUC=0.7789 | t=2.718s
+  AFW-CIL_default                | Gm=0.7502 | AUC=0.7658 | t=0.2783s
+  PSO-AFW-CIL                    | Gm=0.7593 | AUC=0.7720 | t=0.287s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7708 | AUC=0.7708 | t=2.4449s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7667 | AUC=0.7668 | t=2.6132s
+
+--- Rep 06 | Fold 2 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7015 | AUC=0.7290 | t=0.3938s
+  BL-SMOTE+W-SVM                 | Gm=0.7815 | AUC=0.7833 | t=2.7991s
+  AFW-CIL_default                | Gm=0.7086 | AUC=0.7312 | t=0.2568s
+  PSO-AFW-CIL                    | Gm=0.7055 | AUC=0.7271 | t=0.3042s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7815 | AUC=0.7833 | t=2.4575s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7815 | AUC=0.7833 | t=2.7155s
+
+--- Rep 06 | Fold 3 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6907 | AUC=0.7149 | t=0.5596s
+  BL-SMOTE+W-SVM                 | Gm=0.7440 | AUC=0.7446 | t=2.6095s
+  AFW-CIL_default                | Gm=0.7577 | AUC=0.7660 | t=0.2662s
+  PSO-AFW-CIL                    | Gm=0.7577 | AUC=0.7660 | t=0.2841s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7180 | AUC=0.7180 | t=2.5894s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7160 | AUC=0.7160 | t=2.9119s
+
+--- Rep 06 | Fold 4 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6467 | AUC=0.7022 | t=0.3095s
+  BL-SMOTE+W-SVM                 | Gm=0.7027 | AUC=0.7093 | t=2.6694s
+  AFW-CIL_default                | Gm=0.6827 | AUC=0.7207 | t=0.2644s
+  PSO-AFW-CIL                    | Gm=0.6819 | AUC=0.7107 | t=0.2924s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7143 | AUC=0.7196 | t=2.5674s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7071 | AUC=0.7115 | t=2.578s
+
+--- Rep 06 | Fold 5 ---
+  Train=1188 → SMOTE=1984
+  W-SVM                          | Gm=0.7722 | AUC=0.7846 | t=0.3397s
+  BL-SMOTE+W-SVM                 | Gm=0.8068 | AUC=0.8081 | t=2.6828s
+  AFW-CIL_default                | Gm=0.8194 | AUC=0.8226 | t=0.2794s
+  PSO-AFW-CIL                    | Gm=0.8120 | AUC=0.8145 | t=0.4779s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7917 | AUC=0.7940 | t=2.7736s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7896 | AUC=0.7920 | t=2.7651s
+
+[✔] Checkpoint rep 6: ./Experiment/Test_yeast_15032026_154321/Test_yeast_KB2_rep06_checkpoint.csv
+
+--- Rep 07 | Fold 1 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7086 | AUC=0.7312 | t=0.343s
+  BL-SMOTE+W-SVM                 | Gm=0.6972 | AUC=0.6976 | t=2.9013s
+  AFW-CIL_default                | Gm=0.7184 | AUC=0.7373 | t=0.3123s
+  PSO-AFW-CIL                    | Gm=0.6984 | AUC=0.7250 | t=0.2784s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.6913 | AUC=0.6916 | t=2.9561s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.6913 | AUC=0.6916 | t=2.5794s
+
+--- Rep 07 | Fold 2 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6953 | AUC=0.7289 | t=0.3184s
+  BL-SMOTE+W-SVM                 | Gm=0.7922 | AUC=0.7934 | t=2.7455s
+  AFW-CIL_default                | Gm=0.7393 | AUC=0.7576 | t=0.2567s
+  PSO-AFW-CIL                    | Gm=0.7502 | AUC=0.7658 | t=0.3197s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7793 | AUC=0.7813 | t=2.7329s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7697 | AUC=0.7711 | t=2.7401s
+
+--- Rep 07 | Fold 3 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7180 | AUC=0.7433 | t=0.4553s
+  BL-SMOTE+W-SVM                 | Gm=0.7622 | AUC=0.7629 | t=2.589s
+  AFW-CIL_default                | Gm=0.7409 | AUC=0.7596 | t=0.2655s
+  PSO-AFW-CIL                    | Gm=0.7409 | AUC=0.7596 | t=0.2885s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7523 | AUC=0.7527 | t=2.3s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7523 | AUC=0.7527 | t=2.65s
+
+--- Rep 07 | Fold 4 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7469 | AUC=0.7618 | t=0.32s
+  BL-SMOTE+W-SVM                 | Gm=0.7804 | AUC=0.7811 | t=2.579s
+  AFW-CIL_default                | Gm=0.7646 | AUC=0.7741 | t=0.2567s
+  PSO-AFW-CIL                    | Gm=0.7810 | AUC=0.7865 | t=0.4167s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7996 | AUC=0.8016 | t=2.4312s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8018 | AUC=0.8036 | t=2.8715s
+
+--- Rep 07 | Fold 5 ---
+  Train=1188 → SMOTE=1984
+  W-SVM                          | Gm=0.6590 | AUC=0.7030 | t=0.342s
+  BL-SMOTE+W-SVM                 | Gm=0.7572 | AUC=0.7577 | t=2.5861s
+  AFW-CIL_default                | Gm=0.6980 | AUC=0.7282 | t=0.284s
+  PSO-AFW-CIL                    | Gm=0.6980 | AUC=0.7282 | t=0.257s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7513 | AUC=0.7517 | t=2.7383s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7533 | AUC=0.7537 | t=2.6478s
+
+[✔] Checkpoint rep 7: ./Experiment/Test_yeast_15032026_154321/Test_yeast_KB2_rep07_checkpoint.csv
+
+--- Rep 08 | Fold 1 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7409 | AUC=0.7596 | t=0.3292s
+  BL-SMOTE+W-SVM                 | Gm=0.8090 | AUC=0.8095 | t=2.5731s
+  AFW-CIL_default                | Gm=0.7593 | AUC=0.7720 | t=0.2432s
+  PSO-AFW-CIL                    | Gm=0.7799 | AUC=0.7883 | t=0.2816s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7985 | AUC=0.7994 | t=2.5587s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7964 | AUC=0.7974 | t=2.6961s
+
+--- Rep 08 | Fold 2 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6526 | AUC=0.6883 | t=0.3519s
+  BL-SMOTE+W-SVM                 | Gm=0.7320 | AUC=0.7324 | t=2.7083s
+  AFW-CIL_default                | Gm=0.7136 | AUC=0.7313 | t=0.4144s
+  PSO-AFW-CIL                    | Gm=0.6960 | AUC=0.7150 | t=0.5136s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7291 | AUC=0.7305 | t=2.3567s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7291 | AUC=0.7305 | t=2.861s
+
+--- Rep 08 | Fold 3 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6683 | AUC=0.7105 | t=0.4295s
+  BL-SMOTE+W-SVM                 | Gm=0.7214 | AUC=0.7219 | t=3.0298s
+  AFW-CIL_default                | Gm=0.7045 | AUC=0.7330 | t=0.2694s
+  PSO-AFW-CIL                    | Gm=0.7030 | AUC=0.7310 | t=0.2857s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7195 | AUC=0.7199 | t=2.7439s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7195 | AUC=0.7199 | t=2.9999s
+
+--- Rep 08 | Fold 4 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6909 | AUC=0.7228 | t=0.3638s
+  BL-SMOTE+W-SVM                 | Gm=0.8007 | AUC=0.8014 | t=2.6232s
+  AFW-CIL_default                | Gm=0.7425 | AUC=0.7616 | t=0.2717s
+  PSO-AFW-CIL                    | Gm=0.7393 | AUC=0.7576 | t=0.2654s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.8007 | AUC=0.8014 | t=2.7787s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8007 | AUC=0.8014 | t=2.6282s
+
+--- Rep 08 | Fold 5 ---
+  Train=1188 → SMOTE=1984
+  W-SVM                          | Gm=0.7863 | AUC=0.7970 | t=0.3813s
+  BL-SMOTE+W-SVM                 | Gm=0.7767 | AUC=0.7769 | t=2.5641s
+  AFW-CIL_default                | Gm=0.7915 | AUC=0.7994 | t=0.483s
+  PSO-AFW-CIL                    | Gm=0.7915 | AUC=0.7994 | t=0.3061s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7785 | AUC=0.7792 | t=2.7609s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7785 | AUC=0.7792 | t=2.5646s
+
+[✔] Checkpoint rep 8: ./Experiment/Test_yeast_15032026_154321/Test_yeast_KB2_rep08_checkpoint.csv
+
+--- Rep 09 | Fold 1 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7133 | AUC=0.7372 | t=0.3569s
+  BL-SMOTE+W-SVM                 | Gm=0.7622 | AUC=0.7629 | t=2.7333s
+  AFW-CIL_default                | Gm=0.7749 | AUC=0.7862 | t=0.2558s
+  PSO-AFW-CIL                    | Gm=0.7594 | AUC=0.7681 | t=0.2783s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7341 | AUC=0.7344 | t=2.8835s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7320 | AUC=0.7324 | t=3.1833s
+
+--- Rep 09 | Fold 2 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7441 | AUC=0.7637 | t=0.3523s
+  BL-SMOTE+W-SVM                 | Gm=0.7726 | AUC=0.7730 | t=2.6375s
+  AFW-CIL_default                | Gm=0.7937 | AUC=0.8045 | t=0.2897s
+  PSO-AFW-CIL                    | Gm=0.7863 | AUC=0.7925 | t=0.2879s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7685 | AUC=0.7689 | t=2.4116s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7685 | AUC=0.7689 | t=2.5973s
+
+--- Rep 09 | Fold 3 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6467 | AUC=0.6902 | t=0.4016s
+  BL-SMOTE+W-SVM                 | Gm=0.7537 | AUC=0.7548 | t=2.8882s
+  AFW-CIL_default                | Gm=0.6938 | AUC=0.7189 | t=0.2807s
+  PSO-AFW-CIL                    | Gm=0.6892 | AUC=0.7129 | t=0.2983s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7558 | AUC=0.7568 | t=2.6543s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7558 | AUC=0.7568 | t=2.7354s
+
+--- Rep 09 | Fold 4 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6864 | AUC=0.7168 | t=0.3396s
+  BL-SMOTE+W-SVM                 | Gm=0.7494 | AUC=0.7503 | t=2.643s
+  AFW-CIL_default                | Gm=0.7055 | AUC=0.7271 | t=0.2674s
+  PSO-AFW-CIL                    | Gm=0.7039 | AUC=0.7251 | t=0.2984s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7436 | AUC=0.7442 | t=2.5819s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7417 | AUC=0.7422 | t=2.5622s
+
+--- Rep 09 | Fold 5 ---
+  Train=1188 → SMOTE=1984
+  W-SVM                          | Gm=0.6995 | AUC=0.7302 | t=0.3321s
+  BL-SMOTE+W-SVM                 | Gm=0.7494 | AUC=0.7497 | t=2.6145s
+  AFW-CIL_default                | Gm=0.7026 | AUC=0.7265 | t=0.2392s
+  PSO-AFW-CIL                    | Gm=0.7354 | AUC=0.7497 | t=0.2612s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7367 | AUC=0.7372 | t=2.4259s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7367 | AUC=0.7372 | t=2.5748s
+
+[✔] Checkpoint rep 9: ./Experiment/Test_yeast_15032026_154321/Test_yeast_KB2_rep09_checkpoint.csv
+
+--- Rep 10 | Fold 1 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7264 | AUC=0.7474 | t=0.342s
+  BL-SMOTE+W-SVM                 | Gm=0.7850 | AUC=0.7851 | t=2.7732s
+  AFW-CIL_default                | Gm=0.7376 | AUC=0.7556 | t=0.2928s
+  PSO-AFW-CIL                    | Gm=0.7491 | AUC=0.7599 | t=0.2974s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7647 | AUC=0.7648 | t=2.4378s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7688 | AUC=0.7688 | t=2.8481s
+
+--- Rep 10 | Fold 2 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7133 | AUC=0.7372 | t=0.3417s
+  BL-SMOTE+W-SVM                 | Gm=0.7769 | AUC=0.7769 | t=2.5828s
+  AFW-CIL_default                | Gm=0.7502 | AUC=0.7658 | t=0.4091s
+  PSO-AFW-CIL                    | Gm=0.7502 | AUC=0.7658 | t=0.2846s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7908 | AUC=0.7912 | t=2.44s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7908 | AUC=0.7912 | t=2.8596s
+
+--- Rep 10 | Fold 3 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.6641 | AUC=0.7045 | t=0.345s
+  BL-SMOTE+W-SVM                 | Gm=0.7319 | AUC=0.7321 | t=2.8701s
+  AFW-CIL_default                | Gm=0.6938 | AUC=0.7189 | t=0.2588s
+  PSO-AFW-CIL                    | Gm=0.6907 | AUC=0.7149 | t=0.2806s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7302 | AUC=0.7303 | t=2.6886s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7343 | AUC=0.7343 | t=3.1275s
+
+--- Rep 10 | Fold 4 ---
+  Train=1187 → SMOTE=1984
+  W-SVM                          | Gm=0.7360 | AUC=0.7536 | t=0.4585s
+  BL-SMOTE+W-SVM                 | Gm=0.7370 | AUC=0.7408 | t=2.6409s
+  AFW-CIL_default                | Gm=0.7542 | AUC=0.7659 | t=0.2573s
+  PSO-AFW-CIL                    | Gm=0.7353 | AUC=0.7477 | t=0.4081s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7414 | AUC=0.7449 | t=2.4528s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7414 | AUC=0.7449 | t=2.8403s
+
+--- Rep 10 | Fold 5 ---
+  Train=1188 → SMOTE=1984
+  W-SVM                          | Gm=0.6898 | AUC=0.7258 | t=0.3358s
+  BL-SMOTE+W-SVM                 | Gm=0.7409 | AUC=0.7429 | t=2.7446s
+  AFW-CIL_default                | Gm=0.7502 | AUC=0.7678 | t=0.2859s
+  PSO-AFW-CIL                    | Gm=0.7530 | AUC=0.7661 | t=0.2643s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7446 | AUC=0.7470 | t=2.4251s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7446 | AUC=0.7470 | t=2.6449s
+
+[✔] Checkpoint rep 10: ./Experiment/Test_yeast_15032026_154321/Test_yeast_KB2_rep10_checkpoint.csv
+
+Kết thúc: 2026-03-15 23:01:39.031320
