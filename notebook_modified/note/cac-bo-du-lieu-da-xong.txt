@@ -2,6 +2,7 @@
 -transfusion
 -yeast
 -abalon
--glass1 ?????
--segment0 ????
--pageblock0 ????
+-glass1 
+-segment0 ##phan lop qua ro rang - > ket qua xau
+-pageblock0 ##phan lop qua ro rang - > ket qua xau
+-
