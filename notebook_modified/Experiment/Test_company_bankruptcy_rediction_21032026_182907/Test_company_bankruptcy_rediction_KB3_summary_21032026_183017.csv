@@ -1,0 +1,4 @@
+IR_target,IR_actual,n_samples,pos_count,n_folds_ok,WSVM_ok,AFW_ok,Proposed_ok,WSVM_Gm_mean,WSVM_Gm_std,AFW_Gm_mean,AFW_Gm_std,Proposed_Gm_mean,Proposed_Gm_std
+0.02,0.0199,6733,134,5,5,5,5,0.3038,0.0665,0.6808,0.0479,0.7296,0.0822
+0.01,0.0099,6665,66,5,5,5,5,0.1315,0.1658,0.5694,0.1259,0.5583,0.1546
+0.005,0.005,6632,33,5,5,5,5,0.2323,0.19,0.4263,0.2363,0.4487,0.067

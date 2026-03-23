@@ -1,0 +1,11 @@
+KB2 | Dataset: company_bankruptcy_rediction
+Bắt đầu: 2026-03-20 11:28:15.311174
+
+
+--- Rep 01 | Fold 1 ---
+  Train=5455 → SMOTE=10558
+  W-SVM                          | Gm=0.3679 | AUC=0.5644 | t=40.9032s
+  BL-SMOTE+W-SVM                 | Gm=0.7617 | AUC=0.7795 | t=135.5422s
+  AFW-CIL_default                | Gm=0.6925 | AUC=0.7295 | t=22.7237s
+  PSO-AFW-CIL                    | Gm=0.6919 | AUC=0.7288 | t=22.8169s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7589 | AUC=0.7761 | t=133.6628s

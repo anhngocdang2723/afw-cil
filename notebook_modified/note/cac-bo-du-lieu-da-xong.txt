@@ -5,10 +5,11 @@
 -glass1 
 -segment0 ##phan lop qua ro rang - > ket qua xau
 -pageblock0 ##phan lop qua ro rang - > ket qua xau
--company_bankruptcy_rediction ?????
--pima ?????
--wisconsin ?????
--vehicle0 ?????
--vehicle1 ?????
--vehicle2 ?????
--vehicle3 ?????
+-company_bankruptcy_rediction 
+-pima
+-wisconsin ### Data xau
+-waveform ### Data xau
+-vehicle0 ### Data xau
+-vehicle1 
+-vehicle2 ### Data xau
+-vehicle3

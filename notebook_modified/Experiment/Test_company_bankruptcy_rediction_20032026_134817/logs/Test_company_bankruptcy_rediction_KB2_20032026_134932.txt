@@ -1,0 +1,52 @@
+KB2 | Dataset: company_bankruptcy_rediction
+Bắt đầu: 2026-03-20 13:49:32.453715
+
+
+--- Rep 01 | Fold 1 ---
+  Train=5455 → SMOTE=10558
+  W-SVM                          | Gm=0.3679 | AUC=0.5644 | t=55.7741s
+  BL-SMOTE+W-SVM                 | Gm=0.7617 | AUC=0.7795 | t=139.0327s
+  AFW-CIL_default                | Gm=0.6925 | AUC=0.7295 | t=24.3924s
+  PSO-AFW-CIL                    | Gm=0.7081 | AUC=0.7409 | t=23.3455s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7589 | AUC=0.7761 | t=135.7711s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7589 | AUC=0.7761 | t=134.8844s
+
+--- Rep 01 | Fold 2 ---
+  Train=5455 → SMOTE=10558
+  W-SVM                          | Gm=0.4749 | AUC=0.6098 | t=45.5842s
+  BL-SMOTE+W-SVM                 | Gm=0.7396 | AUC=0.7583 | t=129.9659s
+  AFW-CIL_default                | Gm=0.7347 | AUC=0.7591 | t=21.6072s
+  PSO-AFW-CIL                    | Gm=0.7350 | AUC=0.7595 | t=21.607s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7666 | AUC=0.7799 | t=123.8623s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7666 | AUC=0.7799 | t=124.0364s
+
+--- Rep 01 | Fold 3 ---
+  Train=5455 → SMOTE=10558
+  W-SVM                          | Gm=0.4235 | AUC=0.5841 | t=40.6633s
+  BL-SMOTE+W-SVM                 | Gm=0.7586 | AUC=0.7758 | t=136.061s
+  AFW-CIL_default                | Gm=0.6784 | AUC=0.7208 | t=24.168s
+  PSO-AFW-CIL                    | Gm=0.6790 | AUC=0.7216 | t=24.594s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7291 | AUC=0.7519 | t=127.8208s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7147 | AUC=0.7409 | t=123.8745s
+
+--- Rep 01 | Fold 4 ---
+  Train=5455 → SMOTE=10558
+  W-SVM                          | Gm=0.4973 | AUC=0.6197 | t=46.2155s
+  BL-SMOTE+W-SVM                 | Gm=0.8276 | AUC=0.8345 | t=121.746s
+  AFW-CIL_default                | Gm=0.7230 | AUC=0.7519 | t=24.2004s
+  PSO-AFW-CIL                    | Gm=0.7224 | AUC=0.7511 | t=26.3171s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7694 | AUC=0.7833 | t=115.7s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7694 | AUC=0.7833 | t=116.8437s
+
+--- Rep 01 | Fold 5 ---
+  Train=5456 → SMOTE=10560
+  W-SVM                          | Gm=0.4238 | AUC=0.5848 | t=51.5822s
+  BL-SMOTE+W-SVM                 | Gm=0.7291 | AUC=0.7519 | t=142.5487s
+  AFW-CIL_default                | Gm=0.7766 | AUC=0.7920 | t=25.6548s
+  PSO-AFW-CIL                    | Gm=0.7632 | AUC=0.7814 | t=24.4473s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7540 | AUC=0.7700 | t=143.5485s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7540 | AUC=0.7700 | t=137.5906s
+
+[✔] Checkpoint rep 1: ./Experiment/Test_company_bankruptcy_rediction_20032026_134817/Test_company_bankruptcy_rediction_KB2_rep01_checkpoint.csv
+
+Kết thúc: 2026-03-21 04:18:26.293994

@@ -1,0 +1,146 @@
+KB2 | Dataset: wisconsin
+Bắt đầu: 2026-03-23 03:13:34.285198
+
+
+--- Rep 01 | Fold 1 ---
+  Train=546 → SMOTE=710
+  W-SVM                          | Gm=0.9727 | AUC=0.9727 | t=0.1734s
+  BL-SMOTE+W-SVM                 | Gm=0.9773 | AUC=0.9775 | t=0.2718s
+  AFW-CIL_default                | Gm=0.9727 | AUC=0.9727 | t=0.0906s
+  PSO-AFW-CIL                    | Gm=0.9727 | AUC=0.9727 | t=0.0946s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9773 | AUC=0.9775 | t=0.1846s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9773 | AUC=0.9775 | t=0.2544s
+
+--- Rep 01 | Fold 2 ---
+  Train=546 → SMOTE=710
+  W-SVM                          | Gm=0.9358 | AUC=0.9367 | t=0.0987s
+  BL-SMOTE+W-SVM                 | Gm=0.9466 | AUC=0.9471 | t=0.3647s
+  AFW-CIL_default                | Gm=0.9248 | AUC=0.9263 | t=0.1973s
+  PSO-AFW-CIL                    | Gm=0.9358 | AUC=0.9367 | t=0.1629s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9466 | AUC=0.9471 | t=0.1426s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9466 | AUC=0.9471 | t=0.209s
+
+--- Rep 01 | Fold 3 ---
+  Train=546 → SMOTE=710
+  W-SVM                          | Gm=0.9670 | AUC=0.9671 | t=0.0901s
+  BL-SMOTE+W-SVM                 | Gm=0.9727 | AUC=0.9727 | t=0.2361s
+  AFW-CIL_default                | Gm=0.9670 | AUC=0.9671 | t=0.1433s
+  PSO-AFW-CIL                    | Gm=0.9670 | AUC=0.9671 | t=0.2227s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9727 | AUC=0.9727 | t=0.2212s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9727 | AUC=0.9727 | t=0.3025s
+
+--- Rep 01 | Fold 4 ---
+  Train=547 → SMOTE=710
+  W-SVM                          | Gm=0.9621 | AUC=0.9625 | t=0.1596s
+  BL-SMOTE+W-SVM                 | Gm=0.9621 | AUC=0.9625 | t=0.2119s
+  AFW-CIL_default                | Gm=0.9566 | AUC=0.9568 | t=0.1339s
+  PSO-AFW-CIL                    | Gm=0.9566 | AUC=0.9568 | t=0.1025s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9730 | AUC=0.9731 | t=0.1493s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9730 | AUC=0.9731 | t=0.2723s
+
+--- Rep 01 | Fold 5 ---
+  Train=547 → SMOTE=712
+  W-SVM                          | Gm=0.9725 | AUC=0.9725 | t=0.2074s
+  BL-SMOTE+W-SVM                 | Gm=0.9725 | AUC=0.9725 | t=0.5602s
+  AFW-CIL_default                | Gm=0.9621 | AUC=0.9621 | t=0.1607s
+  PSO-AFW-CIL                    | Gm=0.9621 | AUC=0.9621 | t=0.0988s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9621 | AUC=0.9621 | t=0.5702s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9621 | AUC=0.9621 | t=0.396s
+
+[✔] Checkpoint rep 1: ./Experiment/Test_wisconsin_23032026_030925/Test_wisconsin_KB2_rep01_checkpoint.csv
+
+--- Rep 02 | Fold 1 ---
+  Train=546 → SMOTE=710
+  W-SVM                          | Gm=0.9840 | AUC=0.9840 | t=0.16s
+  BL-SMOTE+W-SVM                 | Gm=0.9944 | AUC=0.9944 | t=0.2076s
+  AFW-CIL_default                | Gm=0.9944 | AUC=0.9944 | t=0.0764s
+  PSO-AFW-CIL                    | Gm=0.9944 | AUC=0.9944 | t=0.1541s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9887 | AUC=0.9888 | t=0.3329s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9887 | AUC=0.9888 | t=0.1452s
+
+--- Rep 02 | Fold 2 ---
+  Train=546 → SMOTE=710
+  W-SVM                          | Gm=0.9670 | AUC=0.9671 | t=0.1135s
+  BL-SMOTE+W-SVM                 | Gm=0.9670 | AUC=0.9671 | t=0.1863s
+  AFW-CIL_default                | Gm=0.9670 | AUC=0.9671 | t=0.0927s
+  PSO-AFW-CIL                    | Gm=0.9670 | AUC=0.9671 | t=0.1859s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9670 | AUC=0.9671 | t=0.2565s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9670 | AUC=0.9671 | t=0.2793s
+
+--- Rep 02 | Fold 3 ---
+  Train=546 → SMOTE=710
+  W-SVM                          | Gm=0.9628 | AUC=0.9631 | t=0.1273s
+  BL-SMOTE+W-SVM                 | Gm=0.9789 | AUC=0.9792 | t=0.1591s
+  AFW-CIL_default                | Gm=0.9682 | AUC=0.9688 | t=0.1279s
+  PSO-AFW-CIL                    | Gm=0.9682 | AUC=0.9688 | t=0.157s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9789 | AUC=0.9792 | t=0.2875s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9734 | AUC=0.9735 | t=0.3204s
+
+--- Rep 02 | Fold 4 ---
+  Train=547 → SMOTE=710
+  W-SVM                          | Gm=0.9566 | AUC=0.9568 | t=0.1214s
+  BL-SMOTE+W-SVM                 | Gm=0.9773 | AUC=0.9775 | t=0.2023s
+  AFW-CIL_default                | Gm=0.9566 | AUC=0.9568 | t=0.1833s
+  PSO-AFW-CIL                    | Gm=0.9457 | AUC=0.9462 | t=0.0944s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9668 | AUC=0.9669 | t=0.1459s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9668 | AUC=0.9669 | t=0.1643s
+
+--- Rep 02 | Fold 5 ---
+  Train=547 → SMOTE=712
+  W-SVM                          | Gm=0.9247 | AUC=0.9252 | t=0.1752s
+  BL-SMOTE+W-SVM                 | Gm=0.9347 | AUC=0.9347 | t=0.3522s
+  AFW-CIL_default                | Gm=0.9354 | AUC=0.9356 | t=0.1759s
+  PSO-AFW-CIL                    | Gm=0.9354 | AUC=0.9356 | t=0.1594s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9347 | AUC=0.9347 | t=0.2683s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9347 | AUC=0.9347 | t=0.3191s
+
+[✔] Checkpoint rep 2: ./Experiment/Test_wisconsin_23032026_030925/Test_wisconsin_KB2_rep02_checkpoint.csv
+
+--- Rep 03 | Fold 1 ---
+  Train=546 → SMOTE=710
+  W-SVM                          | Gm=0.9773 | AUC=0.9775 | t=0.187s
+  BL-SMOTE+W-SVM                 | Gm=0.9715 | AUC=0.9719 | t=0.3137s
+  AFW-CIL_default                | Gm=0.9830 | AUC=0.9831 | t=0.096s
+  PSO-AFW-CIL                    | Gm=0.9715 | AUC=0.9719 | t=0.1036s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9715 | AUC=0.9719 | t=0.1373s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9715 | AUC=0.9719 | t=0.3227s
+
+--- Rep 03 | Fold 2 ---
+  Train=546 → SMOTE=710
+  W-SVM                          | Gm=0.9518 | AUC=0.9519 | t=0.1144s
+  BL-SMOTE+W-SVM                 | Gm=0.9727 | AUC=0.9727 | t=0.1379s
+  AFW-CIL_default                | Gm=0.9462 | AUC=0.9463 | t=0.5343s
+  PSO-AFW-CIL                    | Gm=0.9462 | AUC=0.9463 | t=0.0886s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9613 | AUC=0.9615 | t=0.2297s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9613 | AUC=0.9615 | t=0.1894s
+
+--- Rep 03 | Fold 3 ---
+  Train=546 → SMOTE=710
+  W-SVM                          | Gm=0.9682 | AUC=0.9688 | t=0.1141s
+  BL-SMOTE+W-SVM                 | Gm=0.9789 | AUC=0.9792 | t=0.2574s
+  AFW-CIL_default                | Gm=0.9682 | AUC=0.9688 | t=0.0878s
+  PSO-AFW-CIL                    | Gm=0.9789 | AUC=0.9792 | t=0.2355s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9789 | AUC=0.9792 | t=0.2853s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9789 | AUC=0.9792 | t=0.1663s
+
+--- Rep 03 | Fold 4 ---
+  Train=547 → SMOTE=710
+  W-SVM                          | Gm=0.9457 | AUC=0.9462 | t=0.2853s
+  BL-SMOTE+W-SVM                 | Gm=0.9674 | AUC=0.9675 | t=0.3191s
+  AFW-CIL_default                | Gm=0.9457 | AUC=0.9462 | t=0.1435s
+  PSO-AFW-CIL                    | Gm=0.9457 | AUC=0.9462 | t=0.1335s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9619 | AUC=0.9619 | t=0.2519s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9619 | AUC=0.9619 | t=0.4081s
+
+--- Rep 03 | Fold 5 ---
+  Train=547 → SMOTE=712
+  W-SVM                          | Gm=0.9572 | AUC=0.9574 | t=0.2085s
+  BL-SMOTE+W-SVM                 | Gm=0.9460 | AUC=0.9460 | t=0.2718s
+  AFW-CIL_default                | Gm=0.9678 | AUC=0.9678 | t=0.112s
+  PSO-AFW-CIL                    | Gm=0.9678 | AUC=0.9678 | t=0.1044s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.9770 | AUC=0.9773 | t=0.1676s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.9770 | AUC=0.9773 | t=0.2557s
+
+[✔] Checkpoint rep 3: ./Experiment/Test_wisconsin_23032026_030925/Test_wisconsin_KB2_rep03_checkpoint.csv
+
+Kết thúc: 2026-03-23 03:20:24.455129

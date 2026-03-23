@@ -1,3 +1,0 @@
-Times,Fold,T,Name Method,Name Function,SP,SE,Gmean,F1 Score,Accuracy,AUC,Confusion Matrix
-1,1,18.3653,W-SVM,baseline,0.9695,0.7857,0.8728,0.7652,0.9507,0.8776,"[[953, 30], [24, 88]]"
-1,1,55.4794,AFW-CIL_default,"K=5,s1=0.1,s2=0.5,s3=0.1,s4=0.5",0.9603,0.8304,0.893,0.7623,0.947,0.8953,"[[944, 39], [19, 93]]"

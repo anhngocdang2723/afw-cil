@@ -1,0 +1,240 @@
+KB2 | Dataset: vehicle1
+Bắt đầu: 2026-03-23 08:22:12.786106
+
+
+--- Rep 01 | Fold 1 ---
+  Train=676 → SMOTE=1006
+  W-SVM                          | Gm=0.6806 | AUC=0.6973 | t=0.1878s
+  BL-SMOTE+W-SVM                 | Gm=0.7552 | AUC=0.7570 | t=1.0648s
+  AFW-CIL_default                | Gm=0.6869 | AUC=0.7053 | t=0.2444s
+  PSO-AFW-CIL                    | Gm=0.7011 | AUC=0.7166 | t=0.1741s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7552 | AUC=0.7570 | t=0.2935s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7552 | AUC=0.7570 | t=0.5461s
+
+--- Rep 01 | Fold 2 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.7166 | AUC=0.7269 | t=0.1891s
+  BL-SMOTE+W-SVM                 | Gm=0.7922 | AUC=0.7922 | t=0.2793s
+  AFW-CIL_default                | Gm=0.7751 | AUC=0.7771 | t=0.1103s
+  PSO-AFW-CIL                    | Gm=0.7751 | AUC=0.7771 | t=0.098s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7922 | AUC=0.7922 | t=0.3183s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7961 | AUC=0.7961 | t=0.2986s
+
+--- Rep 01 | Fold 3 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.6980 | AUC=0.7156 | t=0.226s
+  BL-SMOTE+W-SVM                 | Gm=0.7564 | AUC=0.7573 | t=0.4001s
+  AFW-CIL_default                | Gm=0.7166 | AUC=0.7269 | t=0.1096s
+  PSO-AFW-CIL                    | Gm=0.7268 | AUC=0.7346 | t=0.1219s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7564 | AUC=0.7573 | t=0.4431s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7685 | AUC=0.7689 | t=0.26s
+
+--- Rep 01 | Fold 4 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.7661 | AUC=0.7695 | t=0.0941s
+  BL-SMOTE+W-SVM                 | Gm=0.7762 | AUC=0.7763 | t=0.2698s
+  AFW-CIL_default                | Gm=0.7673 | AUC=0.7737 | t=0.1121s
+  PSO-AFW-CIL                    | Gm=0.7673 | AUC=0.7737 | t=0.1386s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7721 | AUC=0.7723 | t=0.4777s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7721 | AUC=0.7723 | t=0.245s
+
+--- Rep 01 | Fold 5 ---
+  Train=677 → SMOTE=1008
+  W-SVM                          | Gm=0.7581 | AUC=0.7655 | t=0.1149s
+  BL-SMOTE+W-SVM                 | Gm=0.8171 | AUC=0.8171 | t=0.4428s
+  AFW-CIL_default                | Gm=0.7766 | AUC=0.7803 | t=0.1919s
+  PSO-AFW-CIL                    | Gm=0.7693 | AUC=0.7723 | t=0.1661s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.8171 | AUC=0.8171 | t=0.3765s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8090 | AUC=0.8091 | t=0.3519s
+
+[✔] Checkpoint rep 1: ./Experiment/Test_vehicle1_23032026_080157/Test_vehicle1_KB2_rep01_checkpoint.csv
+
+--- Rep 02 | Fold 1 ---
+  Train=676 → SMOTE=1006
+  W-SVM                          | Gm=0.7252 | AUC=0.7354 | t=0.1038s
+  BL-SMOTE+W-SVM                 | Gm=0.8320 | AUC=0.8326 | t=0.3205s
+  AFW-CIL_default                | Gm=0.7317 | AUC=0.7388 | t=0.2345s
+  PSO-AFW-CIL                    | Gm=0.7574 | AUC=0.7615 | t=0.2951s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.8279 | AUC=0.8286 | t=0.3429s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8279 | AUC=0.8286 | t=0.2433s
+
+--- Rep 02 | Fold 2 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.6864 | AUC=0.7079 | t=0.3167s
+  BL-SMOTE+W-SVM                 | Gm=0.7497 | AUC=0.7539 | t=0.5469s
+  AFW-CIL_default                | Gm=0.6980 | AUC=0.7156 | t=0.0972s
+  PSO-AFW-CIL                    | Gm=0.6949 | AUC=0.7116 | t=0.1243s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7401 | AUC=0.7462 | t=0.4302s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7532 | AUC=0.7578 | t=0.3273s
+
+--- Rep 02 | Fold 3 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.8076 | AUC=0.8128 | t=0.1097s
+  BL-SMOTE+W-SVM                 | Gm=0.7726 | AUC=0.7726 | t=0.5352s
+  AFW-CIL_default                | Gm=0.7788 | AUC=0.7811 | t=0.1471s
+  PSO-AFW-CIL                    | Gm=0.7912 | AUC=0.7927 | t=0.128s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7686 | AUC=0.7686 | t=0.3805s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7765 | AUC=0.7766 | t=0.2682s
+
+--- Rep 02 | Fold 4 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.7124 | AUC=0.7272 | t=0.1315s
+  BL-SMOTE+W-SVM                 | Gm=0.7922 | AUC=0.7922 | t=0.3285s
+  AFW-CIL_default                | Gm=0.7268 | AUC=0.7346 | t=0.1175s
+  PSO-AFW-CIL                    | Gm=0.7065 | AUC=0.7150 | t=0.1256s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7804 | AUC=0.7805 | t=0.5313s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7843 | AUC=0.7845 | t=0.3144s
+
+--- Rep 02 | Fold 5 ---
+  Train=677 → SMOTE=1008
+  W-SVM                          | Gm=0.7675 | AUC=0.7729 | t=0.1114s
+  BL-SMOTE+W-SVM                 | Gm=0.8379 | AUC=0.8392 | t=0.4053s
+  AFW-CIL_default                | Gm=0.7802 | AUC=0.7843 | t=0.1121s
+  PSO-AFW-CIL                    | Gm=0.7746 | AUC=0.7809 | t=0.1003s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.8312 | AUC=0.8318 | t=0.4347s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8312 | AUC=0.8318 | t=0.398s
+
+[✔] Checkpoint rep 2: ./Experiment/Test_vehicle1_23032026_080157/Test_vehicle1_KB2_rep02_checkpoint.csv
+
+--- Rep 03 | Fold 1 ---
+  Train=676 → SMOTE=1006
+  W-SVM                          | Gm=0.7312 | AUC=0.7478 | t=0.1158s
+  BL-SMOTE+W-SVM                 | Gm=0.7868 | AUC=0.7877 | t=0.441s
+  AFW-CIL_default                | Gm=0.7451 | AUC=0.7592 | t=0.3586s
+  PSO-AFW-CIL                    | Gm=0.7521 | AUC=0.7626 | t=0.0993s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7986 | AUC=0.7991 | t=0.3103s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7986 | AUC=0.7991 | t=0.3299s
+
+--- Rep 03 | Fold 2 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.7404 | AUC=0.7505 | t=0.1158s
+  BL-SMOTE+W-SVM                 | Gm=0.8192 | AUC=0.8194 | t=0.3555s
+  AFW-CIL_default                | Gm=0.6917 | AUC=0.7076 | t=0.134s
+  PSO-AFW-CIL                    | Gm=0.7092 | AUC=0.7232 | t=0.1016s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.8077 | AUC=0.8078 | t=0.7053s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8233 | AUC=0.8234 | t=0.391s
+
+--- Rep 03 | Fold 3 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.7296 | AUC=0.7343 | t=0.1419s
+  BL-SMOTE+W-SVM                 | Gm=0.7685 | AUC=0.7689 | t=0.3158s
+  AFW-CIL_default                | Gm=0.7164 | AUC=0.7227 | t=0.1082s
+  PSO-AFW-CIL                    | Gm=0.7425 | AUC=0.7459 | t=0.1234s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7564 | AUC=0.7573 | t=0.3471s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7564 | AUC=0.7573 | t=0.2589s
+
+--- Rep 03 | Fold 4 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.7824 | AUC=0.7851 | t=0.1022s
+  BL-SMOTE+W-SVM                 | Gm=0.8139 | AUC=0.8152 | t=0.2586s
+  AFW-CIL_default                | Gm=0.7733 | AUC=0.7774 | t=0.1079s
+  PSO-AFW-CIL                    | Gm=0.7912 | AUC=0.7927 | t=0.1179s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.8181 | AUC=0.8191 | t=0.2369s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8222 | AUC=0.8231 | t=0.3153s
+
+--- Rep 03 | Fold 5 ---
+  Train=677 → SMOTE=1008
+  W-SVM                          | Gm=0.7039 | AUC=0.7201 | t=0.1002s
+  BL-SMOTE+W-SVM                 | Gm=0.7937 | AUC=0.7937 | t=0.3569s
+  AFW-CIL_default                | Gm=0.6944 | AUC=0.7035 | t=0.1109s
+  PSO-AFW-CIL                    | Gm=0.7206 | AUC=0.7262 | t=0.2581s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7783 | AUC=0.7784 | t=0.3893s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7783 | AUC=0.7784 | t=0.5147s
+
+[✔] Checkpoint rep 3: ./Experiment/Test_vehicle1_23032026_080157/Test_vehicle1_KB2_rep03_checkpoint.csv
+
+--- Rep 04 | Fold 1 ---
+  Train=676 → SMOTE=1006
+  W-SVM                          | Gm=0.7516 | AUC=0.7581 | t=0.1061s
+  BL-SMOTE+W-SVM                 | Gm=0.7906 | AUC=0.7906 | t=0.3133s
+  AFW-CIL_default                | Gm=0.7538 | AUC=0.7576 | t=0.1974s
+  PSO-AFW-CIL                    | Gm=0.7219 | AUC=0.7314 | t=0.1059s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7985 | AUC=0.7985 | t=0.533s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8018 | AUC=0.8019 | t=0.2654s
+
+--- Rep 04 | Fold 2 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.6957 | AUC=0.7198 | t=0.1093s
+  BL-SMOTE+W-SVM                 | Gm=0.7589 | AUC=0.7615 | t=0.2687s
+  AFW-CIL_default                | Gm=0.7298 | AUC=0.7428 | t=0.1147s
+  PSO-AFW-CIL                    | Gm=0.7336 | AUC=0.7425 | t=0.1073s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7714 | AUC=0.7732 | t=0.3555s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7714 | AUC=0.7732 | t=0.3022s
+
+--- Rep 04 | Fold 3 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.7751 | AUC=0.7771 | t=0.1132s
+  BL-SMOTE+W-SVM                 | Gm=0.8001 | AUC=0.8001 | t=0.2801s
+  AFW-CIL_default                | Gm=0.7950 | AUC=0.7967 | t=0.131s
+  PSO-AFW-CIL                    | Gm=0.7950 | AUC=0.7967 | t=0.1044s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7882 | AUC=0.7885 | t=0.4359s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7882 | AUC=0.7885 | t=0.2889s
+
+--- Rep 04 | Fold 4 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.7189 | AUC=0.7351 | t=0.2102s
+  BL-SMOTE+W-SVM                 | Gm=0.7961 | AUC=0.7961 | t=0.533s
+  AFW-CIL_default                | Gm=0.7638 | AUC=0.7697 | t=0.1049s
+  PSO-AFW-CIL                    | Gm=0.7933 | AUC=0.7970 | t=0.1382s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.8077 | AUC=0.8078 | t=0.4021s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8077 | AUC=0.8078 | t=0.4551s
+
+--- Rep 04 | Fold 5 ---
+  Train=677 → SMOTE=1008
+  W-SVM                          | Gm=0.7415 | AUC=0.7502 | t=0.2578s
+  BL-SMOTE+W-SVM                 | Gm=0.7968 | AUC=0.7971 | t=0.7394s
+  AFW-CIL_default                | Gm=0.6974 | AUC=0.7121 | t=0.1079s
+  PSO-AFW-CIL                    | Gm=0.7214 | AUC=0.7308 | t=0.2131s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7927 | AUC=0.7931 | t=0.391s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7927 | AUC=0.7931 | t=0.3423s
+
+[✔] Checkpoint rep 4: ./Experiment/Test_vehicle1_23032026_080157/Test_vehicle1_KB2_rep04_checkpoint.csv
+
+--- Rep 05 | Fold 1 ---
+  Train=676 → SMOTE=1006
+  W-SVM                          | Gm=0.7418 | AUC=0.7552 | t=0.105s
+  BL-SMOTE+W-SVM                 | Gm=0.8025 | AUC=0.8030 | t=0.2387s
+  AFW-CIL_default                | Gm=0.7352 | AUC=0.7473 | t=0.15s
+  PSO-AFW-CIL                    | Gm=0.7385 | AUC=0.7513 | t=0.1s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.8180 | AUC=0.8184 | t=0.6487s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8180 | AUC=0.8184 | t=0.3922s
+
+--- Rep 05 | Fold 2 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.7098 | AUC=0.7190 | t=0.1012s
+  BL-SMOTE+W-SVM                 | Gm=0.7680 | AUC=0.7684 | t=0.3039s
+  AFW-CIL_default                | Gm=0.7130 | AUC=0.7187 | t=0.203s
+  PSO-AFW-CIL                    | Gm=0.7329 | AUC=0.7338 | t=0.1066s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7834 | AUC=0.7840 | t=0.2802s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7834 | AUC=0.7840 | t=0.3317s
+
+--- Rep 05 | Fold 3 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.7537 | AUC=0.7663 | t=0.1041s
+  BL-SMOTE+W-SVM                 | Gm=0.8233 | AUC=0.8239 | t=0.256s
+  AFW-CIL_default                | Gm=0.7811 | AUC=0.7896 | t=0.1272s
+  PSO-AFW-CIL                    | Gm=0.7811 | AUC=0.7896 | t=0.1076s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.8308 | AUC=0.8319 | t=0.3294s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8233 | AUC=0.8239 | t=0.2689s
+
+--- Rep 05 | Fold 4 ---
+  Train=677 → SMOTE=1006
+  W-SVM                          | Gm=0.7370 | AUC=0.7465 | t=0.1066s
+  BL-SMOTE+W-SVM                 | Gm=0.7404 | AUC=0.7417 | t=0.2866s
+  AFW-CIL_default                | Gm=0.6885 | AUC=0.7037 | t=0.1182s
+  PSO-AFW-CIL                    | Gm=0.6885 | AUC=0.7037 | t=0.1199s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7647 | AUC=0.7650 | t=0.4341s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.7647 | AUC=0.7650 | t=0.2439s
+
+--- Rep 05 | Fold 5 ---
+  Train=677 → SMOTE=1008
+  W-SVM                          | Gm=0.7640 | AUC=0.7689 | t=0.214s
+  BL-SMOTE+W-SVM                 | Gm=0.7886 | AUC=0.7891 | t=0.4965s
+  AFW-CIL_default                | Gm=0.7779 | AUC=0.7796 | t=0.1347s
+  PSO-AFW-CIL                    | Gm=0.7532 | AUC=0.7569 | t=0.2057s
+  BL-SMOTE+AFW-CIL_default       | Gm=0.7927 | AUC=0.7931 | t=0.4192s
+  BL-SMOTE+PSO-AFW-CIL           | Gm=0.8036 | AUC=0.8045 | t=1.1293s
+
+[✔] Checkpoint rep 5: ./Experiment/Test_vehicle1_23032026_080157/Test_vehicle1_KB2_rep05_checkpoint.csv
+
+Kết thúc: 2026-03-23 09:07:18.825852
