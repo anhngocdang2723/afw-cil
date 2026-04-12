@@ -1,0 +1,18 @@
+# Fdb version 4
+["pdflatex"] 1775783765.80213 "d:/01_Study/Paper/BL-SMOTE_PSO-AFW-CIL/paper_resources/01_src/afw-cil/notebook_modified/test/test.tex" "test.pdf" "test" 1775783766.7494 0
+  "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1775749414 35752 024fb6c41858982481f6968b5fc26508 ""
+  "c:/texlive/2026/texmf-dist/tex/latex/base/article.cls" 1775755121 20144 b966087dda3b194755eb460d32e2ef75 ""
+  "c:/texlive/2026/texmf-dist/tex/latex/base/size10.clo" 1775755121 8448 686612a86f0e04f41ea577f5ec7e83d8 ""
+  "c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1775755049 30909 7dedb28cb21a1e79c47a35a35ae3c507 ""
+  "c:/texlive/2026/texmf-dist/web2c/texmf.cnf" 1775749098 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
+  "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1775761537 5619402 045890036aad9b52b154ef5568e59d3a ""
+  "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1775761629 3648457 2cc7bedb22e512fd54a03599ff41a3ea ""
+  "c:/texlive/2026/texmf.cnf" 1775761509 713 e69b156964470283e0530f5060668171 ""
+  "d:/01_Study/Paper/BL-SMOTE_PSO-AFW-CIL/paper_resources/01_src/afw-cil/notebook_modified/test/test.tex" 1775783761 72 02bd51728d257f6879cc337bf649abf2 ""
+  "test.aux" 1775783766 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "test.tex" 1775783761 72 02bd51728d257f6879cc337bf649abf2 ""
+  (generated)
+  "test.aux"
+  "test.log"
+  "test.pdf"
+  (rewritten before read)

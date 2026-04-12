@@ -1,7 +1,34 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:conda",
     "python-envs.defaultPackageManager": "ms-python.python:conda",
+
     "terminal.integrated.env.linux": {
         "TZ": "Asia/Ho_Chi_Minh"
-    }
+    },
+
+    "latex-workshop.latex.autoBuild.run": "onSave",
+
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.synctex.afterBuild.enabled": true,
+
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        }
+    ],
+
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex",
+            "tools": ["pdflatex"]
+        }
+    ],
+    "editor.wordWrap": "on"
 }
