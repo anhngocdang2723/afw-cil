@@ -60,6 +60,7 @@
 \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
 \usepackage{tabularx}
 \usepackage{comment}
+\usepackage{marvosym}
 %%%%
 
 %%%%%=============================================================================%%%%
@@ -114,17 +115,18 @@
 
 \author{\fnm{Ngoc Anh} \sur{Dang}}\email{anhngocdang27022003@gmail.com}
 
-\author{\fnm{Huu Viet} \sur{Hoang}}\email{viethh@vinhuni.edu.vn}
+\author{\fnm{Hoang Huu} \sur{Viet}}\email{viethh@vinhuni.edu.vn}
 
-\author{\fnm{Van Chuong} \sur{Nguyen}}\email{cnv1902@gmail.com}
+\author{\fnm{Nguyen Van} \sur{Chuong}}\email{cnv1902@gmail.com}
 
-\author*{\fnm{Duc Quang} \sur{Vo}}\email{quangvd@vinhuni.edu.vn}
+%\author*{\fnm{Vo Duc} \sur{Quang}} \email{quangvd@vinhuni.edu.vn}
+\author*{\fnm{Vo Duc} \sur{Quang}\textsuperscript{(\Letter)}}\email{quangvd@vinhuni.edu.vn}
 
-\affil*{\orgdiv{Institute of Engineering and Technology}, \orgname{Vinh University}, \orgaddress{\street{182 Le Duan}, \city{Vinh}, \postcode{43100}, \state{Nghe An}, \country{Vietnam}}}
+\affil*{\orgdiv{Institute of Engineering and Technology}, \orgname{Vinh~University}, \orgaddress{\street{182~ Le~Duan}, \city{Vinh}, \postcode{43100}, \state{Nghe~An}, \country{Vietnam}}}
 
 \maketitle
 \section{Introduction}\label{sec1}
-Class Imbalance Learning (CIL) \cite{he2009learning} is a crucial research topic in data mining and machine learning. This problem occurs when majority class samples significantly outnumber minority class samples. In practice, minority samples often contain critical information representing rare events, such as patient data in medical diagnoses or fraudulent transactions in the financial sector. Traditional machine learning models typically exhibit a bias toward the majority class when processing these datasets. For example, in a dataset containing only 2\% minority samples, a model predicting every sample as the majority class achieves 98\% accuracy. Although this metric appears high, the model completely fails to identify any minority sample. This issue makes learning from imbalanced data a challenging task.
+Class Imbalance Learning (CIL) \cite{he2009learning} is a crucial research topic in data mining and machine learning. This problem occurs when majority class samples significantly outnumber minority class samples. In practice, minority samples often contain critical information representing rare events, such as patient data in medical diagnosis or fraudulent transactions in the financial sector. Traditional machine learning models typically exhibit a bias toward the majority class when processing these datasets. For example, in a dataset containing only 2\% minority samples, a model predicting every sample as the majority class achieves 98\% accuracy. Although this metric appears high, the model completely fails to identify any minority sample. This issue makes learning from imbalanced data a challenging task.
 
 Researchers address the class imbalance problem through two primary approaches: (\textit{i}) balancing the data distribution using sampling techniques (oversampling \cite{chawla2002smote}, undersampling \cite{kubat1997addressing}); and (\textit{ii}) modifying machine learning algorithms \cite{he2009learning, batuwita2010fsvm}.
 
@@ -157,7 +159,7 @@ The Adaptive Fuzzy Weight (AFW-CIL) algorithm \cite{quang2023adaptive} was propo
 
 This enables a more accurate evaluation of the sample's importance based on the relative position between the two data clusters. Furthermore, AFW-CIL utilizes the Tomek Links (TLPs) algorithm \cite{tomek1976two} to identify sensitive sample pairs located in borderline regions or identified as noise. A pair of samples ($x_i, x_j$) belonging to different classes is called a Tomek Link if there does not exist any sample $x_k$ that is closer to $x_i$ than $x_j$ or closer to $x_j$ than $x_i$. 
 
-To adjust the fuzzy weights for these sensitive samples, AFW-CIL combines the classification results of the base Support Vector Machine and a $K$-Nearest Neighbors (K-NN) algorithm. The parameter $K$ denotes the number of nearest neighbors used to diagnose whether a TLP sample is noise or a borderline sample. Meanwhile, $\sigma_1$ and $\sigma_3$ act as boundary shift coefficients, and $\sigma_2$ and $\sigma_4$ act as noise penalty coefficients. Based on this diagnosis, the algorithm adjusts the weights through four cases:
+To adjust the fuzzy weights for these sensitive samples, AFW-CIL combines the classification results of the base Support Vector Machine and a $K$-Nearest Neighbors (K-NN) algorithm. The parameter $K$ denotes the number of nearest neighbors used to identify whether a TLP sample is noise or a borderline sample. Meanwhile, $\sigma_1$ and $\sigma_3$ act as boundary shift coefficients, and $\sigma_2$ and $\sigma_4$ act as noise penalty coefficients. Based on this identification, the algorithm adjusts the weights through four cases:
 \begin{itemize}
     \item \textbf{Case 1 (Positive borderline)}: If a TLP is located within the positive margin, the algorithm increases $m_i^+$ and decreases $m_j^-$ by the boundary shift coefficient $\sigma_1$.
     \item \textbf{Case 2 (Negative noise)}: If a majority sample in a TLP is surrounded by minority samples, it is considered noise, and its weight $m_j^-$ is severely penalized by the coefficient $\sigma_2$.
@@ -275,7 +277,7 @@ Algorithm~\ref{alg:hybrid_approach} summarizes the execution of the proposed app
 \KwIn{$\mathcal{D}$: Raw imbalanced dataset; $\Omega$: Parameter search space}
 \KwOut{$\mathcal{H}_{final}$: Final optimal classification model; $\mathcal{M}$: Performance metrics report}
 Randomly split $\mathcal{D}$ into a Training set $\mathcal{D}_{train}$ (80\%) and a Test set $\mathcal{D}_{test}$ (20\%)\;
-Apply Z-score standardization to both $\mathcal{D}_{train}$ and $\mathcal{D}_{test}$\;
+Apply Z-score normalization to both $\mathcal{D}_{train}$ and $\mathcal{D}_{test}$\;
 $\Theta^* \leftarrow$ Tune hyperparameters using Alg. \ref{alg:pso} (PSO) with inputs $(\mathcal{D}_{train}, \Omega)$\; 
 $\mathcal{D}_{bal\_train} \leftarrow$ Balance training data using Alg. \ref{alg:bl_smote} (BL-SMOTE) with input $(\mathcal{D}_{train})$\;
 $\mathcal{H}_{final} \leftarrow$ Train the AFW-CIL core on $\mathcal{D}_{bal\_train}$ using the optimal $\Theta^*$\;
@@ -366,7 +368,7 @@ Dataset & Method & SE & SP & Gmean & F1-Score & AUC \\
 }
 
 \smallskip
-\noindent \footnotesize \textbf{Note:} Bold values indicate the highest average results for each dataset. Several method names are abbreviated (e.g., \textit{GridSearch-AFW} instead of \textit{GridSearch-AFW-CIL}) to save space.
+\noindent \footnotesize \textbf{Note:} Bold values indicate the highest average results for each dataset. Several method names are abbreviated (e.g., \textit{GridSearch-AFW} instead of \textit{GridSearch-AFW-CIL}) for brevity.
 \end{table*}
 
 \smallskip
@@ -422,7 +424,7 @@ Dataset & Method & SE & SP & Gmean & F1-Score & AUC \\
 }
 
 \smallskip
-\noindent \footnotesize \textbf{Note:} Bold values indicate the highest average results for each dataset. Several method names are abbreviated (e.g., \textit{BL-SMOTE+PSO-AFW} instead of \textit{BL-SMOTE+PSO-AFW-CIL}) to save space.
+\noindent \footnotesize \textbf{Note:} Bold values indicate the highest average results for each dataset. Several method names are abbreviated (e.g., \textit{BL-SMOTE+PSO-AFW} instead of \textit{BL-SMOTE+PSO-AFW-CIL}) for brevity.
 \end{table*}
 
 \smallskip
